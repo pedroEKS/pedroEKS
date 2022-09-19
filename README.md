@@ -20,9 +20,11 @@
   
 ##
   
->🌎 I'm from Brazil
->👨🏻‍💻 Love programming and gaming
->📧 Reach me via pedroeks155@gmail.com
+🌎 I'm from Brazil  
+
+👨🏻‍💻 Love programming and gaming
+  
+📧 Reach me via pedroeks155@gmail.com
 
  
 
