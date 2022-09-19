@@ -17,6 +17,12 @@
 
 <div> 
   <a href="https://instagram.com/ekspedro" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  
+##
+  
+>🌎 I'm from Brazil
+>👨🏻‍💻 Love programming and gaming
+>📧 Reach me via pedroeks155@gmail.com
 
  
 
