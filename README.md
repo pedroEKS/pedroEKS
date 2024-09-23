@@ -17,3 +17,4 @@ Agora, estou focado em seguir uma carreira que alia minha paixão por tecnologia
   <a href="https://www.linkedin.com/in/pedro-henrique-esperidi%C3%A3o-aureliano-a50419251/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   <a href = "mailto:pedroeks155@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div>
+.
