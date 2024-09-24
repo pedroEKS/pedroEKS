@@ -21,5 +21,5 @@ Agora, estou focado em seguir uma carreira que alia minha paixão por tecnologia
 </div>
 ㅤ
 <div>
-<img src= "https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&size_weight=0.5&count_weight=0.5&theme=dark"/>
+<img alt="Tauz Top Languages" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&langs_count=10&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117&hide=javascript" /></a>
 </div>
