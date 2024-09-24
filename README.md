@@ -21,5 +21,5 @@ Agora, estou focado em seguir uma carreira que alia minha paixão por tecnologia
 </div>
 ㅤ
 <div>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+<img src= "https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&size_weight=0.5&count_weight=0.5"/>
 </div>
