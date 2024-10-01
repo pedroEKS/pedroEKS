@@ -14,7 +14,7 @@ Agora, estou focado em seguir uma carreira que alia minha paixão por tecnologia
 </p>
 ㅤ
 <div>
-<img alt="EKS Top Languages" height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&langs_count=10&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=2f3237&hide=javascript" /></a>
+<img alt="EKS Top Languages" height="100em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&langs_count=10&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=2f3237&hide=javascript" /></a>
 </div>
 ㅤ
 <div> 
@@ -23,4 +23,3 @@ Agora, estou focado em seguir uma carreira que alia minha paixão por tecnologia
   <a href="https://www.linkedin.com/in/pedro-henrique-esperidi%C3%A3o-aureliano-a50419251/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   <a href = "mailto:pedroeks155@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div>
-ㅤ
