@@ -14,7 +14,7 @@ Agora, estou focado em seguir uma carreira que alia minha paixão por tecnologia
 </p>
 ㅤ
 <div>
-<img alt="EKS Top Languages" height="125em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&langs_count=10&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=2f3237" /></a>
+<img alt="EKS Top Languages" height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&langs_count=10&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=2f3237" /></a>
 </div>
 ㅤ
 <div> 
