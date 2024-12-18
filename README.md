@@ -1,5 +1,6 @@
 ## Olá, sou o Pedro!
 
+
 <div style="display: inline_block"><br>
   <img align="center" alt="C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
   <img align="center" alt="Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
@@ -9,11 +10,13 @@
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 </div>
 ㅤ
+
 <p> 
 Cursei medicina por 1 ano e 6 meses, mas descobri que não era a área certa para mim.
 Agora, estou focado em seguir uma carreira que alia minha paixão por tecnologia e resolução de problemas. Estou determinado a me tornar um engenheiro de software competente e contribuir para inovações tecnológicas que impactem positivamente a sociedade.
 </p>
 ㅤ
+
 <div>
 <img alt="EKS Top Languages" height="210em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&langs_count=10&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=2f3237" /></a>
 </div>
