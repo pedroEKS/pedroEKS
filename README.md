@@ -15,6 +15,7 @@ Cursei medicina por 1 ano e 6 meses, mas descobri que não era a área certa par
 Agora, estou focado em seguir uma carreira que alia minha paixão por tecnologia e resolução de problemas. Estou determinado a me tornar um engenheiro de software competente e contribuir para inovações tecnológicas que impactem positivamente a sociedade.
 </p>
 
+
 <div>
 <img alt="EKS Top Languages" height="210em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&langs_count=10&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=2f3237" /></a>
 </div>
