@@ -10,7 +10,6 @@
 </div>
 
 
-
 <p> 
 Cursei medicina por 1 ano e 6 meses, mas descobri que não era a área certa para mim.
 Agora, estou focado em seguir uma carreira que alia minha paixão por tecnologia e resolução de problemas. Estou determinado a me tornar um engenheiro de software competente e contribuir para inovações tecnológicas que impactem positivamente a sociedade.
