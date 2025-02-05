@@ -1,4 +1,4 @@
-## Olá, sou o Pedro!
+## Pedro Aureliano | Estudante de Engenharia de Software
 
 <div style="display: inline_block"><br>
   <img align="center" alt="C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
@@ -10,27 +10,42 @@
 </div>
 
 
-<p> 
-  
-A curiosidade sempre foi o fio condutor da minha trajetória. Comecei minha jornada acadêmica na Medicina, movido pelo desejo de resolver problemas e causar um impacto positivo na vida das pessoas. Durante 1 ano e 6 meses, desenvolvi habilidades essenciais como pensamento analítico, resolução de problemas sob pressão e um olhar crítico para otimização de processos. Mas, no meio do caminho, percebi que minha verdadeira paixão estava na tecnologia—no potencial de criar soluções escaláveis que transformam realidades.
+Sou estudante de Engenharia de Software com uma paixão por **desenvolvimento de software**, **automação de processos** e **tecnologias inovadoras**. Minha jornada começou na Medicina, onde estudei por 1 ano e 6 meses, mas percebi que meu verdadeiro propósito estava na criação de soluções tecnológicas que impactam positivamente a sociedade. Agora, estou em busca de aprimorar minhas habilidades e contribuir para a construção de sistemas escaláveis e eficientes.
 
-Foi assim que a Engenharia de Software se tornou meu novo propósito. Hoje, estou imerso no universo do desenvolvimento, aprendendo e aplicando boas práticas de software, computação em nuvem e automação de processos. Para consolidar esses conhecimentos, estou desenvolvendo dois projetos principais:
+## 📚 O que estou estudando
 
-🚀 Um aplicativo para gestão de fazendas de leite, que permite o cadastro de animais, registro de partos, controle da produção de leite e geração de relatórios detalhados. Esse projeto tem sido um grande laboratório de aprendizado, aprofundando minha experiência em arquitetura de software, banco de dados e infraestrutura em nuvem.
+Atualmente, estou focado em aprender e aplicar boas práticas de desenvolvimento, explorando áreas como:
 
-🏥 Um sistema para clínicas médicas, voltado para a otimização do atendimento e gestão de pacientes. Com funcionalidades como agendamento, prontuário digital e geração de relatórios, esse projeto une minha vivência na área da saúde com minha paixão pela tecnologia, criando soluções eficientes para um setor essencial.
+- **Backend Development**
+- **Computação em Nuvem** (AWS, Docker)
+- **Automação de Processos**
+- **DevOps**
+- **Desenvolvimento Web**
 
-Sou movido por desafios e pelo aprendizado contínuo. Meu interesse especial está em backend, DevOps e Cloud Computing, áreas onde posso unir minha capacidade analítica à criação de soluções inovadoras. Estou sempre em busca de oportunidades para aplicar e expandir meus conhecimentos, contribuindo para projetos que realmente fazem a diferença.
+Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnologias de backend quanto em infraestrutura.
 
-Se você procura alguém apaixonado por tecnologia, com uma visão estratégica e sede de aprendizado, vamos conversar! 🚀
+## 🔧 Ferramentas e Tecnologias
 
-</p>
+- **Linguagens**: Python, JavaScript, SQL
+- **Frameworks e Bibliotecas**: Django, Flask, React, Node.js
+- **Banco de Dados**: PostgreSQL, MySQL, MongoDB
+- **DevOps/Infraestrutura**: AWS, Docker, Kubernetes
+- **Ferramentas de Versionamento**: Git, GitHub
+- **Metodologias Ágeis**: Scrum, Kanban
 
+## 🌱 O que estou aprendendo
 
-<div>
-<img alt="EKS Top Languages" height="210em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&langs_count=10&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=2f3237" /></a>
-</div>
+- **Cloud Computing** (AWS, Google Cloud)
+- **Docker & Kubernetes**
+- **Automação de Deploys com CI/CD**
+- **Melhores práticas de segurança em desenvolvimento de software**
 
+## 🤝 Vamos Conectar!
+
+Estou aberto a colaborações, desafios de código e novas oportunidades. Sinta-se à vontade para conferir meus projetos, contribuir ou entrar em contato para bater um papo sobre **desenvolvimento de software**, **tecnologias emergentes** ou apenas trocar ideias!
+
+- [LinkedIn](https://www.linkedin.com/in/pedro-henrique-esperidi%C3%A3o-aureliano-a50419251/)
+- [Twitter](https://twitter.com/seu-twitter)
 
 <div> 
   <a href="https://www.instagram.com/ekspedro/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
