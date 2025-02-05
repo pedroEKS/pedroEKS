@@ -11,8 +11,19 @@
 
 
 <p> 
-Cursei medicina por 1 ano e 6 meses, mas descobri que não era a área certa para mim.
-Agora, estou focado em seguir uma carreira que alia minha paixão por tecnologia e resolução de problemas. Estou determinado a me tornar um engenheiro de software competente e contribuir para inovações tecnológicas que impactem positivamente a sociedade.
+  
+A curiosidade sempre foi o fio condutor da minha trajetória. Comecei minha jornada acadêmica na Medicina, movido pelo desejo de resolver problemas e causar um impacto positivo na vida das pessoas. Durante 1 ano e 6 meses, desenvolvi habilidades essenciais como pensamento analítico, resolução de problemas sob pressão e um olhar crítico para otimização de processos. Mas, no meio do caminho, percebi que minha verdadeira paixão estava na tecnologia—no potencial de criar soluções escaláveis que transformam realidades.
+
+Foi assim que a Engenharia de Software se tornou meu novo propósito. Hoje, estou imerso no universo do desenvolvimento, aprendendo e aplicando boas práticas de software, computação em nuvem e automação de processos. Para consolidar esses conhecimentos, estou desenvolvendo dois projetos principais:
+
+🚀 Um aplicativo para gestão de fazendas de leite, que permite o cadastro de animais, registro de partos, controle da produção de leite e geração de relatórios detalhados. Esse projeto tem sido um grande laboratório de aprendizado, aprofundando minha experiência em arquitetura de software, banco de dados e infraestrutura em nuvem.
+
+🏥 Um sistema para clínicas médicas, voltado para a otimização do atendimento e gestão de pacientes. Com funcionalidades como agendamento, prontuário digital e geração de relatórios, esse projeto une minha vivência na área da saúde com minha paixão pela tecnologia, criando soluções eficientes para um setor essencial.
+
+Sou movido por desafios e pelo aprendizado contínuo. Meu interesse especial está em backend, DevOps e Cloud Computing, áreas onde posso unir minha capacidade analítica à criação de soluções inovadoras. Estou sempre em busca de oportunidades para aplicar e expandir meus conhecimentos, contribuindo para projetos que realmente fazem a diferença.
+
+Se você procura alguém apaixonado por tecnologia, com uma visão estratégica e sede de aprendizado, vamos conversar! 🚀
+
 </p>
 
 
