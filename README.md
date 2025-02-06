@@ -35,6 +35,6 @@ Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnol
 Estou aberto a colaborações, desafios de código e novas oportunidades. Sinta-se à vontade para conferir meus projetos, contribuir ou entrar em contato para bater um papo sobre **desenvolvimento de software**, **tecnologias emergentes** ou apenas trocar ideias!
 
 - [LinkedIn](https://www.linkedin.com/in/pedro-henrique-esperidi%C3%A3o-aureliano-a50419251/)
-- [Twitter](https://twitter.com/seu-twitter)
+- [Twitter](https://x.com/peKSdro)
 - [Gmail](mailto:pedroeks155@gmail.com)
 
