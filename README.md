@@ -14,22 +14,6 @@ Atualmente, estou focado em aprender e aplicar boas práticas de desenvolvimento
 
 Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnologias de backend quanto em infraestrutura.
 
-## 🔧 Ferramentas e Tecnologias
-
-- **Linguagens**: Python, JavaScript, SQL
-- **Frameworks e Bibliotecas**: Django, Flask, React, Node.js
-- **Banco de Dados**: PostgreSQL, MySQL, MongoDB
-- **DevOps/Infraestrutura**: AWS, Docker, Kubernetes
-- **Ferramentas de Versionamento**: Git, GitHub
-- **Metodologias Ágeis**: Scrum, Kanban
-
-## 🌱 O que estou aprendendo
-
-- **Cloud Computing** (AWS, Google Cloud)
-- **Docker & Kubernetes**
-- **Automação de Deploys com CI/CD**
-- **Melhores práticas de segurança em desenvolvimento de software**
-
 ## 🤝 Vamos Conectar!
 
 Estou aberto a colaborações, desafios de código e novas oportunidades. Sinta-se à vontade para conferir meus projetos, contribuir ou entrar em contato para bater um papo sobre **desenvolvimento de software**, **tecnologias emergentes** ou apenas trocar ideias!
