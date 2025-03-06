@@ -13,6 +13,8 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
         }
         .container {
             background-color: rgba(255, 255, 255, 0.8);
@@ -20,51 +22,71 @@
             border-radius: 20px;
             text-align: center;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            max-width: 90%;
         }
         .foto-casal img {
-            width: 300px;
+            width: 100%;
+            max-width: 300px;
             border-radius: 30%;
             margin-bottom: 10px;
         }
         .texto-romantico h1 {
             color: #e91e63;
             margin-bottom: 10px;
+            font-size: 1.8em;
         }
         .texto-romantico p {
             color: #000000;
             font-size: 1.2em;
             line-height: 1.5;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             text-align: center;
         }
         #contador {
             display: flex;
             justify-content: center;
-            margin-bottom: 30px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
         }
         .tempo {
-            margin: 0 20px;
+            margin: 10px;
+            text-align: center;
         }
         .tempo span {
-            font-size: 3em;
+            font-size: 2.5em;
             color: #333;
         }
         .tempo p {
-            font-size: 1.2em;
+            font-size: 1em;
             color: #666;
             margin-top: 5px;
         }
         #mensagem {
-            font-size: 1.5em;
+            font-size: 1.3em;
             color: #e91e63;
             font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            body {
+                height: auto;
+                display: block;
+            }
+            .container {
+                padding: 20px;
+            }
+            .tempo span {
+                font-size: 2em;
+            }
+            .texto-romantico p {
+                font-size: 1em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="foto-casal">
-            <img src="https://cdn.discordapp.com/attachments/1319428337378267196/1346856064229969970/IMG-20240428-WA00111.jpg?ex=67c9b4f5&is=67c86375&hm=fc8a19e4d79f624acb132450b9f017d437397f8981066f252fb74f6f9b3e0206&" alt="Foto">
+            <img src="https://cdn.discordapp.com/attachments/1319428337378267196/1346856064229969970/IMG-20240428-WA00111.jpg" alt="Foto">
         </div>
         <div class="texto-romantico">
             <h1>EU TE AMO</h1>
