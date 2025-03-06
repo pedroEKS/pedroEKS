@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu te amo, #2anos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        .foto-casal img {
+            width: 300px;
+            border-radius: 30%;
+            margin-bottom: 10px;
+        }
+        .texto-romantico h1 {
+            color: #e91e63;
+            margin-bottom: 10px;
+        }
+        .texto-romantico p {
+            color: #000000;
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        #contador {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .tempo {
+            margin: 0 20px;
+        }
+        .tempo span {
+            font-size: 3em;
+            color: #333;
+        }
+        .tempo p {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 5px;
+        }
+        #mensagem {
+            font-size: 1.5em;
+            color: #e91e63;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="foto-casal">
+            <img src="https://cdn.discordapp.com/attachments/1319428337378267196/1346856064229969970/IMG-20240428-WA00111.jpg?ex=67c9b4f5&is=67c86375&hm=fc8a19e4d79f624acb132450b9f017d437397f8981066f252fb74f6f9b3e0206&" alt="Foto">
+        </div>
+        <div class="texto-romantico">
+            <h1>EU TE AMO</h1>
+            <p>Já são dois anos juntos. Dois anos de histórias, de risadas, de desafios e de momentos que só nós dois entendemos.</p>
+            <p>A vida nem sempre é simples, mas com você, tudo faz mais sentido. Desde o começo, cada dia ao seu lado tem sido uma mistura de aprendizado e carinho.</p>
+            <p>Não somos perfeitos, e nem precisamos ser. O que importa é que, mesmo nos dias difíceis, escolhemos continuar. Escolhemos um ao outro.</p>
+            <p>Que venham mais anos, mais histórias, mais momentos. Porque enquanto estivermos juntos, tudo vale a pena.</p>
+        </div>
+        <div id="contador">
+            <div class="tempo">
+                <span id="dias">00</span>
+                <p>Dias</p>
+            </div>
+            <div class="tempo">
+                <span id="horas">00</span>
+                <p>Horas</p>
+            </div>
+            <div class="tempo">
+                <span id="minutos">00</span>
+                <p>Minutos</p>
+            </div>
+            <div class="tempo">
+                <span id="segundos">00</span>
+                <p>Segundos</p>
+            </div>
+        </div>
+        <p id="mensagem"></p>
+    </div>
+    <script>
+        const dataInicio = new Date('2023-03-18T00:32:00');
+        function atualizarContador() {
+            const agora = new Date();
+            const diferenca = agora - dataInicio;
+            const segundos = Math.floor(diferenca / 1000) % 60;
+            const minutos = Math.floor(diferenca / (1000 * 60)) % 60;
+            const horas = Math.floor(diferenca / (1000 * 60 * 60)) % 24;
+            const dias = Math.floor(diferenca / (1000 * 60 * 60 * 24));
+            document.getElementById('dias').textContent = String(dias).padStart(2, '0');
+            document.getElementById('horas').textContent = String(horas).padStart(2, '0');
+            document.getElementById('minutos').textContent = String(minutos).padStart(2, '0');
+            document.getElementById('segundos').textContent = String(segundos).padStart(2, '0');
+        }
+        setInterval(atualizarContador, 1000);
+        const doisAnos = new Date(dataInicio);
+        doisAnos.setFullYear(doisAnos.getFullYear() + 2);
+        if (new Date() >= doisAnos) {
+            document.getElementById('mensagem').textContent = 'Feliz 2 anos de amor! Que venham muitos mais!';
+        }
+    </script>
+</body>
+</html>
