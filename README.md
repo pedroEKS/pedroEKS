@@ -94,4 +94,3 @@ Estou aberto a colaborações, desafios de código e novas oportunidades. Sinta-
       src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
   />
 </p>
-
