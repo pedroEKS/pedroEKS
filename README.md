@@ -1,15 +1,14 @@
 ## Pedro Aureliano | Estudante de Engenharia de Software
 
-Sou estudante de Engenharia de Software com uma paixão por **desenvolvimento de software**, **automação de processos** e **tecnologias inovadoras**. Minha jornada começou na Medicina, onde estudei por 1 ano e 6 meses, mas percebi que meu verdadeiro propósito estava na criação de soluções tecnológicas . Agora, estou em busca de aprimorar minhas habilidades e contribuir para a construção de sistemas escaláveis e eficientes.
-
+Sou estudante de Engenharia de Software com uma paixão por **desenvolvimento de software**, **automação de processos** e **tecnologias inovadoras**.
 ## 📚 O que estou estudando
 
 Atualmente, estou focado em aprender e aplicar boas práticas de desenvolvimento, explorando áreas como:
 
-- **Backend Development**
 - **Computação em Nuvem** (AWS, Docker)
-- **Automação de Processos**
+- **Backend Development**
 - **DevOps**
+- **Automação de Processos**
 - **Desenvolvimento Web**
 
 Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnologias de backend quanto em infraestrutura.
