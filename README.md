@@ -75,17 +75,6 @@ Estou aberto a colaborações, desafios de código e novas oportunidades. Sinta-
 - [Gmail](mailto:pedroeks155@gmail.com)
 
 
-### 📊 Estatísticas
-
-<p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="150" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=pedroEKS&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
-
 <img 
       align="left" 
       alt="GitHub Stats" 
