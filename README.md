@@ -21,7 +21,7 @@ Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnol
     title="Java"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" 
+    src="https://devicon-website.vercel.app/api/java/original.svg" 
 />
 <img 
     align="left" 
@@ -29,7 +29,15 @@ Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnol
     title="Python"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
+    src="https://devicon-website.vercel.app/api/python/original-wordmark.svg" 
+/>
+<img
+    aling="left"
+    alt="Mongo"
+    title="Mongo"
+    width="30px"
+    style="padding-right: 10px;"
+    src="https://devicon-website.vercel.app/api/mongodb/original-wordmark.svg"
 />
 <img 
     align="left" 
@@ -37,7 +45,7 @@ Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnol
     title="JavaScript"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
+    src="https://devicon-website.vercel.app/api/javascript/original.svg" 
 />
 <img 
     align="left" 
@@ -45,7 +53,7 @@ Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnol
     title="Git"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
+    src="https://devicon-website.vercel.app/api/git/original-wordmark.svg" 
 />
 <img 
     align="left" 
@@ -53,7 +61,7 @@ Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnol
     title="HTML" 
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
+    src="https://devicon-website.vercel.app/api/html5/original-wordmark.svg" 
 />
 <img 
     align="left" 
@@ -61,7 +69,7 @@ Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnol
     title="CSS"
     width="30px" 
     style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
+    src="https://devicon-website.vercel.app/api/css3/original-wordmark.svg" 
 />
 <br/>
 <br/>
