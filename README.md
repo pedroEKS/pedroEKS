@@ -1,7 +1,7 @@
 ## Pedro Aureliano | Estudante de Engenharia de Software
 
 Sou estudante de Engenharia de Software com uma paixão por **desenvolvimento de software**, **automação de processos** e **tecnologias inovadoras**.
-## 📚 O que estou estudando
+##  O que estou estudando
 
 Atualmente, estou focado em aprender e aplicar boas práticas de desenvolvimento, explorando áreas como:
 
@@ -13,7 +13,7 @@ Atualmente, estou focado em aprender e aplicar boas práticas de desenvolvimento
 
 Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnologias de backend quanto em infraestrutura.
 
-### 🤖 Linguagens e Tecnologias
+###  Linguagens e Tecnologias
 
 <img 
     align="left" 
@@ -74,7 +74,7 @@ Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnol
 <br/>
 <br/>
 
-## 🤝 Vamos Conectar!
+##  Vamos Conectar!
 
 Estou aberto a colaborações, desafios de código e novas oportunidades. Sinta-se à vontade para conferir meus projetos, contribuir ou entrar em contato para bater um papo sobre **desenvolvimento de software**, **tecnologias emergentes** ou apenas trocar ideias!
 
