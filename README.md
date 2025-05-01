@@ -37,8 +37,6 @@ Estou sempre em busca de novos desafios para aprender e crescer, tanto em tecnol
     align="left" alt="CSS" title="CSS" width="30px" style="padding-right: 10px;"  src="https://devicon-website.vercel.app/api/css3/original-wordmark.svg"
     />
 <br/>
-
-
 ##  Vamos Conectar!
 
 Estou aberto a colaborações, desafios de código e novas oportunidades. Sinta-se à vontade para conferir meus projetos, contribuir ou entrar em contato para bater um papo sobre **desenvolvimento de software**, **tecnologias emergentes** ou apenas trocar ideias!
@@ -47,6 +45,7 @@ Estou aberto a colaborações, desafios de código e novas oportunidades. Sinta-
 - [Twitter](https://x.com/peKSdro)
 - [Gmail](mailto:pedroeks155@gmail.com)
 
+<img align="right" alt="GitHub Stats" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9"  />
+<img align="left" alt="Gif" height="150" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2kzc3FlaGpib25yMmJrNzU5c2Y5MG44dDBmb2hndDA1dzN2aW1oNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/8m7nAJTYvzNUh54HQm/giphy.gif"  />
 
-<img align="left" alt="GitHub Stats" height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9"  />
-</p>
+
