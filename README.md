@@ -4,7 +4,6 @@ Sou estudante de Engenharia de Software com uma paixão por **desenvolvimento de
 ##  O que estou estudando
 
 Atualmente, estou focado em aprender e aplicar boas práticas de desenvolvimento, explorando áreas como:
-<img align="right" alt="Gif" height="150" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2kzc3FlaGpib25yMmJrNzU5c2Y5MG44dDBmb2hndDA1dzN2aW1oNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/8m7nAJTYvzNUh54HQm/giphy.gif"  />
 - **Computação em Nuvem** (AWS, Docker)
 - **Backend Development**
 - **DevOps**
