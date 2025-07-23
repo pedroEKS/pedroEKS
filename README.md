@@ -1,5 +1,4 @@
-## Pedro Aureliano | Estudante de Engenharia de Software
-
+## Pedro Aureliano 
 Sou estudante de Engenharia de Software com uma paixão por **desenvolvimento de software**, **automação de processos** e **tecnologias inovadoras**.
 ##  O que estou estudando
 
