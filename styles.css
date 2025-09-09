@@ -1,0 +1,30 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.bg-gradient-custom {
+    background: linear-gradient(135deg, #1f2937, #111827);
+}
+.border-gradient-custom {
+    border-image: linear-gradient(to right, #6366f1, #3b82f6) 1;
+    border-style: solid;
+    border-width: 2px;
+}
+.card-skill:hover {
+    transform: translateY(-8px) rotate(2deg);
+    transition: transform 0.3s ease;
+}
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+    animation: fade-in 0.8s ease-out forwards;
+}
+.animate-fade-in-delay-1 {
+    animation: fade-in 0.8s ease-out 0.2s forwards;
+    opacity: 0;
+}
+.animate-fade-in-delay-2 {
+    animation: fade-in 0.8s ease-out 0.4s forwards;
+    opacity: 0;
+}

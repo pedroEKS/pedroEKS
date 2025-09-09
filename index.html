@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Aureliano | Portfólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-950 text-gray-200">
+
+    <header class="relative min-h-screen flex items-center justify-center text-center p-6 bg-gradient-custom">
+        <div class="relative z-10">
+            <img src="https://placehold.co/150x150/0f172a/9ca3af?text=PA" alt="Foto de Perfil de Pedro Aureliano" class="w-40 h-40 rounded-full mx-auto mb-6 shadow-lg transform transition-transform duration-500 hover:scale-105">
+            <h1 class="text-5xl md:text-6xl font-extrabold text-white mb-2 animate-fade-in">Olá, sou Pedro Aureliano.</h1>
+            <p class="text-lg md:text-2xl text-indigo-300 font-medium mb-8 animate-fade-in-delay-1">Engenheiro de Software | Backend & Cloud Computing</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in-delay-2">
+                <a href="#about" class="px-8 py-3 bg-indigo-600 text-white font-semibold rounded-full shadow-lg hover:bg-indigo-700 transition-colors duration-300">Sobre Mim</a>
+                <a href="#projects" class="px-8 py-3 bg-transparent text-white font-semibold rounded-full border-2 border-indigo-500 hover:bg-indigo-500 transition-colors duration-300">Ver Projetos</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="about" class="py-20 px-6 bg-gray-900">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-white mb-12">Sobre Mim</h2>
+            <div class="bg-gray-800 p-8 rounded-2xl shadow-xl border-t-4 border-indigo-500">
+                <p class="text-gray-300 leading-relaxed mb-6 text-lg">
+                    Sou um estudante de Engenharia de Software apaixonado por tecnologia e por entender como as coisas funcionam. Estou no início da minha jornada no mundo do desenvolvimento e estou muito empolgado com os desafios que estão por vir.
+                </p>
+                <p class="text-gray-300 leading-relaxed text-lg">
+                    Atualmente, estou me aprofundando no desenvolvimento **Backend** e explorando as possibilidades da **Cloud**. Minha expectativa de formatura é em **Junho de 2028**.
+                </p>
+                <div class="mt-8 flex flex-wrap justify-center gap-4">
+                    <span class="px-4 py-2 bg-gray-700 text-sm font-semibold text-gray-300 rounded-full">🎓 Engenharia de Software</span>
+                    <span class="px-4 py-2 bg-gray-700 text-sm font-semibold text-gray-300 rounded-full">💻 Desenvolvimento Backend</span>
+                    <span class="px-4 py-2 bg-gray-700 text-sm font-semibold text-gray-300 rounded-full">☁️ Cloud Computing</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 bg-gray-950">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-white mb-12">Habilidades & Interesses</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+                <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
+                    <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.svg" alt="Python Logo" class="w-16 h-16 mb-2">
+                    <span class="text-gray-300 text-center font-semibold">Python</span>
+                </div>
+                <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
+                    <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.svg" alt="Java Logo" class="w-16 h-16 mb-2">
+                    <span class="text-gray-300 text-center font-semibold">Java</span>
+                </div>
+                <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
+                    <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.svg" alt="JavaScript Logo" class="w-16 h-16 mb-2">
+                    <span class="text-gray-300 text-center font-semibold">JavaScript</span>
+                </div>
+                <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
+                    <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.svg" alt="C Logo" class="w-16 h-16 mb-2">
+                    <span class="text-gray-300 text-center font-semibold">C</span>
+                </div>
+                <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
+                    <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.svg" alt="C# Logo" class="w-16 h-16 mb-2">
+                    <span class="text-gray-300 text-center font-semibold">C#</span>
+                </div>
+            </div>
+            <div class="mt-16 bg-gray-800 p-6 rounded-2xl shadow-xl border-t-4 border-purple-500">
+                <h3 class="text-xl font-semibold text-white mb-4">Linguagens Mais Usadas</h3>
+                <div id="language-chart" class="flex flex-col space-y-4">
+                    <p class="text-center text-gray-400">Carregando dados do GitHub...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 bg-gray-900">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-white mb-12">Meus Objetivos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Cartão de Objetivo -->
+                <div class="p-6 bg-gray-800 rounded-2xl shadow-xl border-t-4 border-indigo-500">
+                    <svg class="w-10 h-10 text-indigo-400 mb-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM6.627 6.627a1.5 1.5 0 012.121 0l3.536 3.536a1.5 1.5 0 010 2.121l-3.536 3.536a1.5 1.5 0 01-2.121 0 1.5 1.5 0 010-2.121L8.879 10 6.627 7.757a1.5 1.5 0 010-2.121z" clip-rule="evenodd"></path></svg>
+                    <h3 class="text-xl font-semibold text-white mb-2">Aprofundar</h3>
+                    <p class="text-gray-400">Aprofundar meu conhecimento em pelo menos uma linguagem de programação.</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-2xl shadow-xl border-t-4 border-indigo-500">
+                    <svg class="w-10 h-10 text-indigo-400 mb-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 011 1v2h2a1 1 0 011 1v6a1 1 0 01-1 1h-2v2a1 1 0 01-1 1H9a1 1 0 01-1-1v-2H6a1 1 0 01-1-1V7a1 1 0 011-1h2V4a1 1 0 011-1h2zM7 7h6v6H7V7z"></path></svg>
+                    <h3 class="text-xl font-semibold text-white mb-2">Entender</h3>
+                    <p class="text-gray-400">Entender os conceitos fundamentais dos serviços de nuvem.</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-2xl shadow-xl border-t-4 border-indigo-500">
+                    <svg class="w-10 h-10 text-indigo-400 mb-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M12 10a2 2 0 11-4 0 2 2 0 014 0z"></path><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-5-8a5 5 0 1110 0 5 5 0 01-10 0z" clip-rule="evenodd"></path></svg>
+                    <h3 class="text-xl font-semibold text-white mb-2">Construir</h3>
+                    <p class="text-gray-400">Construir meus primeiros projetos pessoais para colocar a teoria em prática.</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-2xl shadow-xl border-t-4 border-indigo-500">
+                    <svg class="w-10 h-10 text-indigo-400 mb-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zM10 12a7 7 0 100 14h2a1 1 0 100-2H7a5 5 0 01-4.782-5.782A1 1 0 002.556 12a7 7 0 0014.888 0 1 1 0 00-.218-.218A5 5 0 0115 12a1 1 0 00-1 1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                    <h3 class="text-xl font-semibold text-white mb-2">Conectar</h3>
+                    <p class="text-gray-400">Me conectar com a comunidade de desenvolvedores para aprender e compartilhar experiências.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-12 px-6 bg-gray-950 text-center">
+        <h2 class="text-3xl font-bold text-white mb-8">Conecte-se comigo!</h2>
+        <div class="flex justify-center space-x-6">
+            <a href="https://github.com/pedroeks" target="_blank" class="text-gray-400 hover:text-white transition-colors duration-300">
+                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.704-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.465-1.11-1.465-.908-.618.069-.606.069-.606 1.004.07 1.531 1.032 1.531 1.032.892 1.529 2.341 1.087 2.91.83.091-.64.352-1.085.635-1.334-2.22-.253-4.555-1.112-4.555-4.945 0-1.092.39-1.983 1.029-2.675-.103-.254-.446-1.268.098-2.64 0 0 .84-.27 2.75 1.022A9.61 9.61 0 0112 6.865c.85.008 1.7.114 2.504.337 1.909-1.292 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.64.64.692 1.028 1.583 1.028 2.675 0 3.842-2.339 4.68-4.569 4.934.359.31.678.92.678 1.855 0 1.336-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.01 10.01 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/pedroaureliano" target="_blank" class="text-gray-400 hover:text-white transition-colors duration-300">
+                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zM.05 7.5h4.89v15h-4.89zM19.1 7.5h4.89v2.536c-.463-.683-1.095-1.284-1.89-1.802-.795-.518-1.745-.885-2.85-.885-3.045 0-5.18 2.08-5.18 6.556v8.6H19.1v-8.4c0-2.222.99-3.71 2.87-3.71 1.93 0 2.88 1.25 2.88 3.71v8.4H28.7v-9.6c0-4.63-2.91-7.24-7.14-7.24-3.14 0-4.51 1.77-5.26 2.872z" />
+                </svg>
+            </a>
+            <a href="https://orcid.org/0009-0004-9931-409X" target="_blank" class="text-gray-400 hover:text-white transition-colors duration-300">
+                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.028 3.999c-.615 0-1.157.433-1.157 1.157v1.171c0 .723.542 1.156 1.157 1.156h1.173c.616 0 1.158-.433 1.158-1.156v-1.171c0-.724-.542-1.157-1.158-1.157h-1.173zM15.467 17.585a.999.999 0 01-.98-.991V10.23a1.002 1.002 0 01.99-1.002h.67a.999.999 0 01.98.99v6.363a.999.999 0 01-.98.99zM12 12.825c-2.455 0-4.444-1.989-4.444-4.444h-2.144c0 3.592 2.915 6.507 6.507 6.507s6.507-2.915 6.507-6.507h-2.144c0 2.455-1.989 4.444-4.444 4.444z" />
+                </svg>
+            </a>
+        </div>
+
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
