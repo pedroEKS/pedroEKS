@@ -39,5 +39,5 @@ These are some of my areas of focus at the moment:
 
 ---
 
-<p> Este repostiório está convertido em <a href="https://pedroeks.github.io/pedroEKS/" target="_blank" rel="noreferrer">pedroeks.github.io/pedroEKS</a>.</p>
+<p> This repository has been converted into <a href="https://pedroeks.github.io/pedroEKS/" target="_blank" rel="noreferrer">pedroeks.github.io/pedroEKS</a>.</p>
 
