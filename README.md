@@ -42,7 +42,7 @@ These are some of my areas of focus at the moment:
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=70&color=gradient&fontAlign=0&fontAlignY=0&descAlignY=100&descAlign=100&textBg=false&section=footer&reversal=true"/>
 </p>
 
 <p> This repository has been converted into <a href="https://pedroeks.github.io/pedroEKS/" target="_blank" rel="noreferrer">pedroeks.github.io/pedroEKS</a>.</p>
