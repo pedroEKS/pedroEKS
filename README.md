@@ -37,12 +37,12 @@ These are some of my areas of focus at the moment:
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedroEKS&layout=compact&langs_count=7&theme=dracula" alt="Top Languages" height="170"/>
-   &nbsp; &nbsp;
+</div>
+&nbsp; &nbsp;
+<div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=pedroEKS&theme=tokyonight&hide_border=true" />
 </div>
-
----
-
+&nbsp; &nbsp;
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=70&color=gradient&fontAlign=0&fontAlignY=0&descAlignY=100&descAlign=100&textBg=false&section=footer&reversal=true"/>
 </p>
