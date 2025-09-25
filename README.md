@@ -50,6 +50,12 @@ These are some of my areas of focus at the moment:
       </a>
       <br>GCloud
     </td>
+    <td align="center" width="96">
+      <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="45" height="45" alt="MongoDB" />
+      </a>
+      <br>MongoDB
+    </td>
   </tr>
 </table>
 
