@@ -63,7 +63,7 @@ These are some of my areas of focus at the moment:
 
 ### Goals
 
-- Deepen my knowledge in a programming language (Python or Java).
+- Deepen my knowledge in a programming language (Python, Java or C#).
 - Understand the fundamental concepts of cloud services and containers (Docker).
 - Connect with the developer community to learn and share experiences.
 
