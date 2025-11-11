@@ -25,13 +25,6 @@ These are some of my areas of focus at the moment:
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="45" height="45" alt="Java" />
       </a>
       <br>Java
-    </td>
-    <td align="center" width="96">
-      <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" width="45" height="45" alt=".NET" />
-      </a>
-      <br>.NET
-    </td>
     <td align="center" width="96">
       <a href="https://nodejs.org" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="45" height="45" alt="Node.js" />
