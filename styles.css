@@ -1,30 +1,47 @@
-body {
-    font-family: 'Inter', sans-serif;
+::-webkit-scrollbar { 
+    width: 8px; 
 }
-.bg-gradient-custom {
-    background: linear-gradient(135deg, #1f2937, #111827);
+::-webkit-scrollbar-track { 
+    background: #0f172a; 
 }
-.border-gradient-custom {
-    border-image: linear-gradient(to right, #6366f1, #3b82f6) 1;
-    border-style: solid;
-    border-width: 2px;
+::-webkit-scrollbar-thumb { 
+    background: #334155; 
+    border-radius: 4px; 
 }
-.card-skill:hover {
-    transform: translateY(-8px) rotate(2deg);
-    transition: transform 0.3s ease;
+::-webkit-scrollbar-thumb:hover { 
+    background: #6366f1; 
 }
-@keyframes fade-in {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+
+.glass {
+    background: rgba(30, 41, 59, 0.3);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.3s ease;
 }
-.animate-fade-in {
-    animation: fade-in 0.8s ease-out forwards;
+
+.glass:hover {
+    background: rgba(30, 41, 59, 0.5);
+    border-color: rgba(99, 102, 241, 0.5);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
 }
-.animate-fade-in-delay-1 {
-    animation: fade-in 0.8s ease-out 0.2s forwards;
+
+.reveal {
     opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
 }
-.animate-fade-in-delay-2 {
-    animation: fade-in 0.8s ease-out 0.4s forwards;
-    opacity: 0;
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cursor::after {
+    content: '|';
+    animation: blink 1s step-start infinite;
+    color: #6366f1;
+}
+@keyframes blink { 
+    50% { opacity: 0; } 
 }
