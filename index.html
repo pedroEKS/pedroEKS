@@ -4,179 +4,232 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pedro Aureliano | Estudante de Engenharia de Software</title>
-    <meta name="description" content="Portfólio de Pedro Aureliano, estudante de Engenharia de Software com foco em Backend e Cloud. Explore meus projetos e minha jornada de aprendizado.">
-    <meta name="keywords" content="Pedro Aureliano, Pedro Henrique Esperidião Aureliano, portfólio, estudante, engenharia de software, backend, cloud, desenvolvedor, Java, Python, GitHub, .Net, Node.js, MongoDB">
+    <title>Pedro Aureliano | Software Engineer</title>
+    <meta name="description" content="Portfólio de Pedro Aureliano, estudante de Engenharia de Software focado em Backend, Cloud e DevOps.">
     
-    <link rel="canonical" href="https://pedroEKS.github.io/pedroEKS/">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/84044726?v=4">
 
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pedroeks.github.io/pedroeks/">
-    <meta property="og:title" content="Pedro Aureliano | Portfólio de Engenharia de Software">
-    <meta property="og:description" content="Estudante de Engenharia de Software com foco em Backend e Cloud. Explore meus projetos.">
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/84044726?v=4">
-
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://pedroeks.github.io/pedroeks/">
-    <meta property="twitter:title" content="Pedro Aureliano | Portfólio de Engenharia de Software">
-    <meta property="twitter:description" content="Estudante de Engenharia de Software com foco em Backend e Cloud. Explore meus projetos.">
-    <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/84044726?v=4">
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Pedro Aureliano",
-      "alternateName": "Pedro Henrique Esperidião Aureliano",
-      "jobTitle": "Estudante de Engenharia de Software",
-      "url": "https://pedroeks.github.io/pedroeks/",
-      "image": "https://avatars.githubusercontent.com/u/84044726?v=4",
-      "alumniOf": {
-        "@type": "CollegeOrUniversity",
-        "name": "Centro Universitário de Belo Horizonte", 
-        "sameAs": "UniBH"
-      },
-      "knowsAbout": [
-        "Desenvolvimento Backend",
-        "Cloud Computing",
-        "Engenharia de Software",
-        "Java",
-        "Python",
-        ".Net",
-        "Node.js",
-        "MongoDB",
-        "Git"
-      ],
-      "sameAs": [
-        "https://github.com/pedroEKS",
-        "https://www.linkedin.com/in/pedroaureliano"
-      ]
-    }
-    </script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        bg: '#0f172a', 
+                        primary: '#6366f1', 
+                        secondary: '#a855f7',
+                    },
+                    animation: {
+                        'blob': 'blob 7s infinite',
+                        'float': 'float 6s ease-in-out infinite'
+                    },
+                    keyframes: {
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                            '100%': { transform: 'translate(0px, 0px) scale(1)' },
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
-<body class="bg-gray-950 text-gray-200">
-<meta name="google-site-verification" content="w_0sE3rOOLMjYTNB9KPNFMlmfqsZsHOxjss5MvRii1I" />
-    <header class="relative min-h-screen flex items-center justify-center text-center p-6 bg-gradient-custom">
-        <div class="relative z-10">
-            <img src="https://avatars.githubusercontent.com/u/84044726?v=4" alt="Foto de Perfil de Pedro Aureliano" class="w-40 h-40 rounded-full mx-auto mb-6 shadow-lg transform transition-transform duration-500 hover:scale-105">
-            <h1 class="text-5xl md:text-6xl font-extrabold text-white mb-2 animate-fade-in">Olá, sou Pedro Aureliano.</h1>
-            <p class="text-lg md:text-2xl text-indigo-300 font-medium mb-8 animate-fade-in-delay-1">Estudante de Engenharia de Software | Backend & Cloud</p>
-            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in-delay-2">
-                <a href="#about" class="px-8 py-3 bg-indigo-600 text-white font-semibold rounded-full shadow-lg hover:bg-indigo-700 transition-colors duration-300">Sobre Mim</a>
-                <a href="https://github.com/pedroEKS?tab=repositories" target="_blank" rel="noopener noreferrer" class="px-8 py-3 bg-transparent text-white font-semibold rounded-full border-2 border-indigo-500 hover:bg-indigo-500 transition-colors duration-300">Ver Repositórios</a>
+<body class="bg-bg text-slate-300 antialiased overflow-x-hidden selection:bg-primary selection:text-white">
+
+    <div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full mix-blend-screen filter blur-[120px] opacity-40 animate-blob"></div>
+        <div class="absolute top-0 right-1/4 w-96 h-96 bg-secondary/10 rounded-full mix-blend-screen filter blur-[120px] opacity-40 animate-blob animation-delay-2000"></div>
+    </div>
+
+    <nav class="fixed w-full z-50 top-0 p-6">
+        <div class="max-w-6xl mx-auto glass rounded-full px-8 py-4 flex justify-between items-center shadow-lg !transform-none">
+            <a href="#" class="text-xl font-bold text-white tracking-tight group">
+                Pedro<span class="text-primary group-hover:text-white transition-colors">  </span>Aureliano
+            </a>
+
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-white transition-colors">Sobre</a>
+                <a href="#skills" class="hover:text-white transition-colors">Stack</a>
+                <a href="#projects" class="hover:text-white transition-colors">GitHub</a>
+                <a href="#contact" class="bg-primary hover:bg-indigo-600 text-white px-5 py-2 rounded-full transition-all shadow-lg shadow-indigo-500/20">
+                    Contato
+                </a>
             </div>
         </div>
-    </header>
+    </nav>
 
-    <main>
-        <section id="about" class="py-20 px-6 bg-gray-900">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold text-center text-white mb-12">Sobre Mim</h2>
-                <div class="bg-gray-800 p-8 rounded-2xl shadow-xl border-t-4 border-indigo-500">
-                    <p class="text-gray-300 leading-relaxed mb-6 text-lg">
-                        Iniciei minha trajetória na Medicina, onde aprendi o valor da disciplina e da tomada de decisão, lições que trago hoje para minha carreira em Engenharia de Software. A transição foi uma forma de alinhar minha paixão por tecnologia com um novo propósito.
+    <main class="container mx-auto px-6 pt-40 pb-20">
+        
+        <section class="min-h-[70vh] flex flex-col justify-center items-center text-center relative">
+            <div class="relative mb-10 animate-float">
+                <div class="absolute -inset-1 bg-gradient-to-tr from-primary to-secondary rounded-full blur opacity-60"></div>
+                <img src="https://avatars.githubusercontent.com/u/84044726?v=4" alt="Pedro Aureliano" class="relative w-40 h-40 rounded-full border-4 border-[#0f172a] shadow-2xl object-cover">
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight leading-tight">
+                Pedro Aureliano
+            </h1>
+            
+            <div class="text-xl md:text-2xl text-indigo-300 font-mono mb-10 h-8 flex items-center justify-center">
+                <span id="typewriter" class="cursor"></span>
+            </div>
+            
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#about" class="px-8 py-3.5 bg-white/5 hover:bg-white/10 text-white font-semibold rounded-full transition-all border border-white/10 backdrop-blur-sm">
+                    Minha História
+                </a>
+                <a href="https://github.com/pedroEKS" target="_blank" class="px-8 py-3.5 bg-white text-slate-900 font-bold rounded-full hover:bg-gray-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)]">
+                    GitHub
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 reveal">
+            <div class="max-w-4xl mx-auto glass rounded-3xl p-10 md:p-14 !transform-none">
+                <h2 class="text-3xl font-bold text-white mb-8">
+                    <span class="text-primary">01.</span> Sobre Mim
+                </h2>
+                <div class="space-y-6 text-lg leading-relaxed text-slate-300 font-light">
+                    <p>
+                        Minha jornada começou na <span class="text-white font-medium">Medicina</span>, onde aprendi sobre responsabilidade crítica e disciplina. Decidi pivotar minha carreira para alinhar minha vocação analítica com a criação de soluções tecnológicas.
                     </p>
-                    <p class="text-gray-300 leading-relaxed text-lg">
-                        Atualmente, como estudante no Centro Universitário de Belo Horizonte (UniBH), estou focado em construir uma base sólida em programação, com grande interesse nas áreas de <strong>desenvolvimento Backend, DevOps e Cloud</strong>. Busco minha primeira oportunidade para aplicar meus conhecimentos, contribuir com projetos reais e crescer continuamente.
+                    <p>
+                        Hoje, estudante de <span class="text-white font-medium">Engenharia de Software no UniBH</span>, foco meus estudos em arquitetura de software robusta. Tenho paixão por <strong>Backend</strong> (Java/Python), <strong>DevOps</strong> e infraestrutura em <strong>Cloud</strong>.
+                    </p>
+                    <p>
+                        Busco oportunidades para aplicar meu conhecimento técnico em cenários reais e gerar valor através de código limpo e eficiente.
                     </p>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="py-20 px-6 bg-gray-950">
-            <div class="max-w-5xl mx-auto"> <h2 class="text-4xl md:text-5xl font-bold text-center text-white mb-12">Habilidades & Interesses</h2>
-                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"> <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
-                        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.svg" alt="Logo da linguagem Python" class="w-16 h-16 mb-2">
-                        <span class="text-gray-300 text-center font-semibold">Python</span>
+        <section id="skills" class="py-24 reveal">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-3xl font-bold text-white mb-12 text-center">
+                    <span class="text-primary">02.</span> Habilidades
+                </h2>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-blue-500/50">
+                        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Python">
+                        <span class="font-mono font-bold text-sm text-white mt-2">Python</span>
                     </div>
-                    <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
-                        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.svg" alt="Logo da linguagem Java" class="w-16 h-16 mb-2">
-                        <span class="text-gray-300 text-center font-semibold">Java</span>
+                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-red-500/50">
+                        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Java">
+                        <span class="font-mono font-bold text-sm text-white mt-2">Java</span>
                     </div>
-                    <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" alt="Logo do .Net" class="w-16 h-16 mb-2">
-                        <span class="text-gray-300 text-center font-semibold">.Net</span>
+                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-green-500/50">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Node.js">
+                        <span class="font-mono font-bold text-sm text-white mt-2">Node.js</span>
                     </div>
-                    <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Logo do Node.js" class="w-16 h-16 mb-2">
-                        <span class="text-gray-300 text-center font-semibold">Node.js</span>
+                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-emerald-500/50">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="MongoDB">
+                        <span class="font-mono font-bold text-sm text-white mt-2">MongoDB</span>
                     </div>
-                    <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="Logo do MongoDB" class="w-16 h-16 mb-2">
-                        <span class="text-gray-300 text-center font-semibold">MongoDB</span>
-                    </div>
-                    <div class="card-skill flex flex-col items-center p-6 bg-gray-800 rounded-2xl shadow-xl border border-transparent hover:border-indigo-500">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Logo do Git" class="w-16 h-16 mb-2">
-                        <span class="text-gray-300 text-center font-semibold">Git</span>
-                    </div>
-                </div>
-                <div class="mt-16 bg-gray-800 p-6 rounded-2xl shadow-xl border-t-4 border-purple-500">
-                    <h3 class="text-xl font-semibold text-white mb-4">Linguagens Mais Usadas no GitHub</h3>
-                    <div id="language-chart" class="flex flex-col space-y-4">
-                        <p class="text-center text-gray-400">Carregando dados do GitHub...</p>
+                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-orange-500/50">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Git">
+                        <span class="font-mono font-bold text-sm text-white mt-2">Git</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-20 px-6 bg-gray-900">
-            <div class="max-w-4xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold text-center text-white mb-12">Certificados e Publicações</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-gray-800 p-8 rounded-2xl shadow-xl border-t-4 border-indigo-500">
-                        <h3 class="text-2xl font-bold text-white mb-4">Certificados</h3>
-                        <ul class="space-y-3 text-gray-300">
-                            <li><a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=9f47020039cc1dca3b184f989c733d24&action=view" target="_blank" rel="noopener noreferrer" class="flex items-center hover:text-indigo-300 transition-colors"><span class="w-2 h-2 bg-indigo-400 rounded-full mr-3"></span>FIAP: DevOps</a></li>
-                            <li><a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=9f502073d9eb45667c0de6c4deac97be&action=view" target="_blank" rel="noopener noreferrer" class="flex items-center hover:text-indigo-300 transition-colors"><span class="w-2 h-2 bg-indigo-400 rounded-full mr-3"></span>FIAP: Python</a></li>
-                            <li><a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=5c3709d4ded2ba20abc6db1777caea05&action=view" target="_blank" rel="noopener noreferrer" class="flex items-center hover:text-indigo-300 transition-colors"><span class="w-2 h-2 bg-indigo-400 rounded-full mr-3"></span>FIAP: Soluções Tecnológicas Emergentes</a></li>
-                            <li><a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=333cc697039f2be0228358306c52a384&action=view" target="_blank" rel="noopener noreferrer" class="flex items-center hover:text-indigo-300 transition-colors"><span class="w-2 h-2 bg-indigo-400 rounded-full mr-3"></span>FIAP: Inteligência Artificial e Computacional</a></li>
-                            <li><a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=85fac0d26905ba1126bcc180bcb1bbc6&action=view" target="_blank" rel="noopener noreferrer" class="flex items-center hover:text-indigo-300 transition-colors"><span class="w-2 h-2 bg-indigo-400 rounded-full mr-3"></span>FIAP: Gestão Financeira de Empresas</a></li>
-                        </ul>
+        <section id="projects" class="py-24 reveal">
+            <div class="max-w-4xl mx-auto glass rounded-3xl p-8 md:p-12 border border-white/10">
+                <h2 class="text-2xl font-bold text-white mb-8">GitHub Intelligence</h2>
+                
+                <div id="language-chart" class="space-y-6">
+                    <div class="animate-pulse space-y-4">
+                        <div class="h-4 bg-slate-700 rounded w-3/4"></div>
+                        <div class="h-4 bg-slate-700 rounded w-1/2"></div>
                     </div>
-                    <div class="bg-gray-800 p-8 rounded-2xl shadow-xl border-t-4 border-indigo-500">
-                        <h3 class="text-2xl font-bold text-white mb-4">Publicação Acadêmica</h3>
-                        <a href="https://rsdjournal.org/index.php/rsd/article/view/46262" target="_blank" rel="noopener noreferrer" class="text-gray-300 italic hover:text-indigo-300 transition-colors duration-300">
+                </div>
+                <div class="mt-8 text-center">
+                    <a href="https://github.com/pedroEKS?tab=repositories" target="_blank" class="text-sm text-primary hover:text-white transition-colors underline decoration-primary/30 hover:decoration-white">Ver repositórios completos →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 reveal">
+            <div class="max-w-5xl mx-auto px-6">
+                <h2 class="text-3xl font-bold text-white mb-12 text-center">
+                    <span class="text-primary">03.</span> Certificações & Conquistas
+                </h2>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=9f47020039cc1dca3b184f989c733d24&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-blue-500 hover:bg-white/5 transition-all">
+                        <h3 class="text-white font-bold text-lg group-hover:text-blue-400 transition-colors">DevOps & Cloud</h3>
+                        <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
+                    </a>
+
+                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=9f502073d9eb45667c0de6c4deac97be&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-yellow-500 hover:bg-white/5 transition-all">
+                        <h3 class="text-white font-bold text-lg group-hover:text-yellow-400 transition-colors">Python Development</h3>
+                        <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
+                    </a>
+
+                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=333cc697039f2be0228358306c52a384&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-purple-500 hover:bg-white/5 transition-all">
+                        <h3 class="text-white font-bold text-lg group-hover:text-purple-400 transition-colors">Inteligência Artificial</h3>
+                        <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
+                    </a>
+
+                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=5c3709d4ded2ba20abc6db1777caea05&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-emerald-500 hover:bg-white/5 transition-all">
+                        <h3 class="text-white font-bold text-lg group-hover:text-emerald-400 transition-colors">Tecnologias Emergentes</h3>
+                        <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
+                    </a>
+                </div>
+
+                <div class="mt-12">
+                    <a href="https://rsdjournal.org/index.php/rsd/article/view/46262" target="_blank" class="block glass p-8 rounded-3xl border border-white/10 hover:border-primary/50 transition group">
+                        <span class="text-xs font-bold text-primary uppercase tracking-widest mb-2 block">Publicação Acadêmica</span>
+                        <h3 class="text-xl font-bold text-white group-hover:text-primary transition-colors leading-tight">
                             "Eficácia e segurança da aplicação precoce da fototerapia em neonatos com icterícia: Uma revisão sistemática"
-                        </a>
-                        <p class="text-gray-400 text-sm mt-3">Essa publicação, fruto da minha trajetória anterior, demonstra minha capacidade de pesquisa, dedicação e aprendizado aprofundado.</p>
-                    </div>
+                        </h3>
+                        <p class="text-slate-400 mt-3 text-sm">Publicado no Research, Society and Development Journal.</p>
+                    </a>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer id="contact" class="py-12 px-6 bg-gray-950 text-center">
-        <h2 class="text-3xl font-bold text-white mb-4">Conecte-se comigo!</h2>
-        <p class="text-gray-400 mb-8">Estou aberto a novas oportunidades e colaborações. Vamos conversar!</p>
-        
-        <div class="mb-8">
-            <a id="email-link" href="mailto:pedroeks155@gmail.com" class="text-lg text-indigo-300 hover:text-indigo-400 transition-colors">
-                dateks@proton.me
-            </a>
-            <button id="copy-email-btn" class="ml-2 px-3 py-1 bg-gray-700 text-xs text-white font-semibold rounded-md hover:bg-gray-600 transition-colors">
-                Copiar
-            </button>
-        </div>
+    <footer id="contact" class="bg-[#050a16] pt-20 pb-10 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Vamos conversar?</h2>
+            <p class="text-slate-400 mb-12 text-lg">Estou disponível para oportunidades de estágio e colaborações.</p>
+            
+            <div class="inline-flex items-center bg-slate-900/50 backdrop-blur rounded-full p-2 pr-6 border border-white/10 mb-12 hover:border-primary/50 transition-colors">
+                <span class="bg-slate-800 text-slate-300 px-3 py-1.5 rounded-full text-sm mr-3 font-mono">Email</span>
+                <a href="mailto:dateks@proton.me" id="email-text" class="text-white font-mono hover:text-primary transition mr-4">pedroeks155@gmail.com</a>
+                <button onclick="copyEmail()" class="text-xs text-slate-500 hover:text-white transition uppercase font-bold tracking-wider">
+                    Copiar
+                </button>
+            </div>
 
-        <div class="flex justify-center space-x-6">
-            <a href="https://github.com/pedroEKS" target="_blank" rel="noopener noreferrer" aria-label="Perfil de Pedro Aureliano no GitHub" class="text-gray-400 hover:text-white transition-colors duration-300">
-                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.704-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.465-1.11-1.465-.908-.618.069-.606.069-.606 1.004.07 1.531 1.032 1.531 1.032.892 1.529 2.341 1.087 2.91.83.091-.64.352-1.085.635-1.334-2.22-.253-4.555-1.112-4.555-4.945 0-1.092.39-1.983 1.029-2.675-.103-.254-.446-1.268.098-2.64 0 0 .84-.27 2.75 1.022A9.61 9.61 0 0112 6.865c.85.008 1.7.114 2.504.337 1.909-1.292 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.64.64.692 1.028 1.583 1.028 2.675 0 3.842-2.339 4.68-4.569 4.934.359.31.678.92.678 1.855 0 1.336-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.01 10.01 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
-            </a>
-            <a href="https://www.linkedin.com/in/pedroaureliano" target="_blank" rel="noopener noreferrer" aria-label="Perfil de Pedro Aureliano no LinkedIn" class="text-gray-400 hover:text-white transition-colors duration-300">
-                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zM.05 7.5h4.89v15h-4.89zM19.1 7.5h4.89v2.536c-.463-.683-1.095-1.284-1.89-1.802-.795-.518-1.745-.885-2.85-.885-3.045 0-5.18 2.08-5.18 6.556v8.6H19.1v-8.4c0-2.222.99-3.71 2.87-3.71 1.93 0 2.88 1.25 2.88 3.71v8.4H28.7v-9.6c0-4.63-2.91-7.24-7.14-7.24-3.14 0-4.51 1.77-5.26 2.872z" /></svg>
-            </a>
+            <div class="text-slate-600 text-sm border-t border-white/5 pt-8">
+                <p>© 2025 Pedro Aureliano.</p>
+            </div>
         </div>
     </footer>
 
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
 </html>
