@@ -13,10 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="style.css">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    
-    <link rel="stylesheet" href="style.css">
     
     <script>
         tailwind.config = {
@@ -29,7 +29,7 @@
                     colors: {
                         bg: '#0f172a', 
                         primary: '#6366f1', 
-                        secondary: '#a855f7',
+                        secondary: '#a855f7', 
                     },
                     animation: {
                         'blob': 'blob 7s infinite',
@@ -63,7 +63,7 @@
     <nav class="fixed w-full z-50 top-0 p-6">
         <div class="max-w-6xl mx-auto glass rounded-full px-8 py-4 flex justify-between items-center shadow-lg !transform-none">
             <a href="#" class="text-xl font-bold text-white tracking-tight group">
-                Pedro<span class="text-primary group-hover:text-white transition-colors">  </span>Aureliano
+                Pedro<span class="text-primary group-hover:text-white transition-colors">.</span>Aureliano
             </a>
 
             <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
@@ -80,6 +80,7 @@
     <main class="container mx-auto px-6 pt-40 pb-20">
         
         <section class="min-h-[70vh] flex flex-col justify-center items-center text-center relative">
+            
             <div class="relative mb-10 animate-float">
                 <div class="absolute -inset-1 bg-gradient-to-tr from-primary to-secondary rounded-full blur opacity-60"></div>
                 <img src="https://avatars.githubusercontent.com/u/84044726?v=4" alt="Pedro Aureliano" class="relative w-40 h-40 rounded-full border-4 border-[#0f172a] shadow-2xl object-cover">
@@ -97,15 +98,15 @@
                 <a href="#about" class="px-8 py-3.5 bg-white/5 hover:bg-white/10 text-white font-semibold rounded-full transition-all border border-white/10 backdrop-blur-sm">
                     Minha História
                 </a>
-                <a href="https://github.com/pedroEKS" target="_blank" class="px-8 py-3.5 bg-white text-slate-900 font-bold rounded-full hover:bg-gray-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)]">
-                    GitHub
+                <a href="https://github.com/pedroEKS" target="_blank" class="px-8 py-3.5 bg-white text-slate-900 font-bold rounded-full hover:bg-gray-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)] flex items-center gap-2 justify-center">
+                    <i data-lucide="github" class="w-5 h-5"></i> GitHub
                 </a>
             </div>
         </section>
 
         <section id="about" class="py-24 reveal">
             <div class="max-w-4xl mx-auto glass rounded-3xl p-10 md:p-14 !transform-none">
-                <h2 class="text-3xl font-bold text-white mb-8">
+                <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3">
                     <span class="text-primary">01.</span> Sobre Mim
                 </h2>
                 <div class="space-y-6 text-lg leading-relaxed text-slate-300 font-light">
@@ -129,23 +130,23 @@
                 </h2>
                 
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-blue-500/50">
+                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-blue-500/50 transition-all">
                         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Python">
                         <span class="font-mono font-bold text-sm text-white mt-2">Python</span>
                     </div>
-                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-red-500/50">
+                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-red-500/50 transition-all">
                         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Java">
                         <span class="font-mono font-bold text-sm text-white mt-2">Java</span>
                     </div>
-                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-green-500/50">
+                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-green-500/50 transition-all">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Node.js">
                         <span class="font-mono font-bold text-sm text-white mt-2">Node.js</span>
                     </div>
-                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-emerald-500/50">
+                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-emerald-500/50 transition-all">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="MongoDB">
                         <span class="font-mono font-bold text-sm text-white mt-2">MongoDB</span>
                     </div>
-                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-orange-500/50">
+                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-orange-500/50 transition-all">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Git">
                         <span class="font-mono font-bold text-sm text-white mt-2">Git</span>
                     </div>
@@ -155,7 +156,9 @@
 
         <section id="projects" class="py-24 reveal">
             <div class="max-w-4xl mx-auto glass rounded-3xl p-8 md:p-12 border border-white/10">
-                <h2 class="text-2xl font-bold text-white mb-8">GitHub Intelligence</h2>
+                <div class="flex items-center gap-4 mb-8">
+                    <h2 class="text-2xl font-bold text-white">GitHub Intelligence</h2>
+                </div>
                 
                 <div id="language-chart" class="space-y-6">
                     <div class="animate-pulse space-y-4">
@@ -176,22 +179,22 @@
                 </h2>
                 
                 <div class="grid md:grid-cols-2 gap-6">
-                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=9f47020039cc1dca3b184f989c733d24&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-blue-500 hover:bg-white/5 transition-all">
+                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=9f47020039cc1dca3b184f989c733d24&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-blue-500 hover:bg-white/5 transition-all cursor-pointer block">
                         <h3 class="text-white font-bold text-lg group-hover:text-blue-400 transition-colors">DevOps & Cloud</h3>
                         <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
                     </a>
 
-                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=9f502073d9eb45667c0de6c4deac97be&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-yellow-500 hover:bg-white/5 transition-all">
+                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=9f502073d9eb45667c0de6c4deac97be&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-yellow-500 hover:bg-white/5 transition-all cursor-pointer block">
                         <h3 class="text-white font-bold text-lg group-hover:text-yellow-400 transition-colors">Python</h3>
                         <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
                     </a>
 
-                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=333cc697039f2be0228358306c52a384&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-purple-500 hover:bg-white/5 transition-all">
+                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=333cc697039f2be0228358306c52a384&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-purple-500 hover:bg-white/5 transition-all cursor-pointer block">
                         <h3 class="text-white font-bold text-lg group-hover:text-purple-400 transition-colors">Inteligência Artificial</h3>
                         <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
                     </a>
 
-                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=5c3709d4ded2ba20abc6db1777caea05&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-emerald-500 hover:bg-white/5 transition-all">
+                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=5c3709d4ded2ba20abc6db1777caea05&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-emerald-500 hover:bg-white/5 transition-all cursor-pointer block">
                         <h3 class="text-white font-bold text-lg group-hover:text-emerald-400 transition-colors">Tecnologias Emergentes</h3>
                         <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
                     </a>
@@ -219,11 +222,16 @@
             <div class="inline-flex items-center bg-slate-900/50 backdrop-blur rounded-full p-2 pr-6 border border-white/10 mb-12 hover:border-primary/50 transition-colors">
                 <span class="bg-slate-800 text-slate-300 px-3 py-1.5 rounded-full text-sm mr-3 font-mono">Email</span>
                 <a href="mailto:dateks@proton.me" id="email-text" class="text-white font-mono hover:text-primary transition mr-4">pedroeks155@gmail.com</a>
-                <button onclick="copyEmail()" class="text-xs text-slate-500 hover:text-white transition uppercase font-bold tracking-wider">
-                    Copiar
+                <button onclick="copyEmail()" class="text-xs text-slate-500 hover:text-white transition uppercase font-bold tracking-wider flex items-center gap-1">
+                    <i data-lucide="copy" class="w-3 h-3"></i> Copiar
                 </button>
             </div>
 
+            <div class="flex justify-center gap-8 text-slate-500 mb-12">
+                <a href="https://github.com/pedroEKS" target="_blank" class="hover:text-white hover:scale-110 transition-all p-2 bg-white/5 rounded-full"><i data-lucide="github" class="w-6 h-6"></i></a>
+                <a href="https://www.linkedin.com/in/pedroaureliano" target="_blank" class="hover:text-white hover:scale-110 transition-all p-2 bg-white/5 rounded-full"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
+            </div>
+            
             <div class="text-slate-600 text-sm border-t border-white/5 pt-8">
                 <p>© 2025 Pedro Aureliano.</p>
             </div>
