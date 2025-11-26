@@ -75,7 +75,7 @@ async function fetchGitHubLanguages() {
         const repos = await reposRes.json();
         const stats = {};
 
-        const promises = repos.map(repo => fetch(repo.languages_url).then(res => res.json()));  // busca lingua de cada repo
+        const promises = repos.map(repo => fetch(repo.languages_url).then(res => res.json()));
         const languagesData = await Promise.all(promises);
 
         languagesData.forEach(langObj => {
@@ -84,7 +84,7 @@ async function fetchGitHubLanguages() {
             }
         });
 
-        const totalBytes = Object.values(stats).reduce((a, b) => a + b, 0);  // calcula as porcentagens do github
+        const totalBytes = Object.values(stats).reduce((a, b) => a + b, 0);
         const sortedStats = Object.entries(stats).sort(([, a], [, b]) => b - a).slice(0, 5);
 
         const processedData = sortedStats.map(([lang, bytes]) => ({
@@ -131,7 +131,7 @@ function renderChart(data) {
 
 fetchGitHubLanguages();
 
-function copyEmail() {  //copia o email 
+function copyEmail() {
     const emailText = document.getElementById('email-text');
     if (emailText) {
         const email = emailText.innerText;
