@@ -1,64 +1,68 @@
-### 👋 Hello, I'm Pedro Aureliano!
+# 👋 Hi, I'm Pedro Aureliano
 
-I am a Software Engineering student passionate about technology and learning how things work. I'm at the beginning of my journey into the world of development and excited for the challenges to come.
+I'm a Software Engineering student who enjoys understanding how things actually work — from code logic to how systems are structured behind the scenes.
 
-Currently, I'm diving into **Backend** development and exploring the possibilities of the **Cloud**. I am expected to graduate in **June 2028**.
+Right now, my focus is on **backend development** and building a solid foundation in programming. I’m less interested in shortcuts and more interested in learning things properly, even if that takes time.
 
-<a href="https://www.linkedin.com/in/pedroaureliano" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+🎓 Software Engineering student  
+📅 Expected graduation: June 2028
 
----
+You can find me on LinkedIn:  
+<a href="https://www.linkedin.com/in/pedroaureliano" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 
-### Technologies and Tools
 
-These are some of my areas of focus at the moment:
+## What I'm currently working on
+
+- Improving my programming fundamentals (logic, structure, clean code)
+- Learning backend development step by step
+- Getting familiar with databases and APIs
+- Exploring cloud concepts and how applications are deployed
+
+
+
+## Technologies I use or study
 
 <table align="center">
   <tr>
     <td align="center" width="96">
-      <a href="https://www.python.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="45" height="45" alt="Python" />
-      </a>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="45" height="45" />
       <br>Python
     </td>
     <td align="center" width="96">
-      <a href="https://www.java.com" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="45" height="45" alt="Java" />
-      </a>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="45" height="45" />
       <br>Java
+    </td>
     <td align="center" width="96">
-      <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="45" height="45" alt="Node.js" />
-      </a>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="45" height="45" />
       <br>Node.js
     </td>
     <td align="center" width="96">
-      <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="45" height="45" alt="Git" />
-      </a>
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="45" height="45" />
       <br>Git
     </td>
-     <td align="center" width="96">
-      <a href="https://cloud.google.com" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" width="45" height="45" alt="Google Cloud" />
-      </a>
-      <br>GCloud
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" width="45" height="45" />
+      <br>GCP
     </td>
     <td align="center" width="96">
-      <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="45" height="45" alt="MongoDB" />
-      </a>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="45" height="45" />
       <br>MongoDB
     </td>
   </tr>
 </table>
 
----
 
-### Goals
+## Goals for the next years
 
-- Deepen my knowledge in a programming language (Python, Java or C#).
-- Understand the fundamental concepts of cloud services and containers (Docker).
-- Connect with the developer community to learn and share experiences.
+- Become confident writing backend code without relying on shortcuts
+- Learn SQL, testing, and basic system design
+- Build small but well-structured projects
+- Prepare myself for junior backend or software engineering roles
 
----
-<p> This repository has been converted into <a href="https://pedroeks.github.io/pedroEKS/" target="_blank" rel="noreferrer">pedroeks.github.io/pedroEKS</a>.</p>
+
+## GitHub Pages
+
+This repository is also available here:  
+👉 https://pedroeks.github.io/pedroEKS/
