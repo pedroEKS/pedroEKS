@@ -50,6 +50,10 @@ You can find me on LinkedIn:
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="45" height="45" />
       <br>MongoDB
     </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="45" height="45" />
+      <br>Linux
+    </td>
   </tr>
 </table>
 
