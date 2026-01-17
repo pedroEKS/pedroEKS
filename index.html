@@ -3,246 +3,362 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Pedro Aureliano | Software Engineer</title>
-    <meta name="description" content="Portfólio de Pedro Aureliano, estudante de Engenharia de Software focado em Backend, Cloud e DevOps.">
     
     <link rel="icon" href="https://avatars.githubusercontent.com/u/84044726?v=4">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="style.css">
-
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    
+
     <script>
         tailwind.config = {
+            darkMode: 'class',
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['Outfit', 'sans-serif'],
+                        sans: ['Inter', 'sans-serif'],
                         mono: ['JetBrains Mono', 'monospace'],
                     },
                     colors: {
-                        bg: '#0f172a', 
-                        primary: '#6366f1', 
-                        secondary: '#a855f7', 
-                    },
-                    animation: {
-                        'blob': 'blob 7s infinite',
-                        'float': 'float 6s ease-in-out infinite'
-                    },
-                    keyframes: {
-                        blob: {
-                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
-                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
-                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
-                            '100%': { transform: 'translate(0px, 0px) scale(1)' },
-                        },
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-10px)' },
-                        }
+                        bg: '#0a0a0a', 
+                        surface: '#111111', 
+                        primary: '#2563eb', 
+                        border: '#27272a'
                     }
                 }
             }
         }
     </script>
+
+    <style>
+        /* // Setup do Grid */
+        body {
+            background-color: #050505;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        
+        .glass-card {
+            background: rgba(17, 17, 17, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid #27272a;
+        }
+        
+        .glass-card:hover {
+            border-color: #3b82f6;
+        }
+
+        /* // Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 4px; }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
 </head>
 
-<body class="bg-bg text-slate-300 antialiased overflow-x-hidden selection:bg-primary selection:text-white">
+<body class="text-gray-300 antialiased overflow-x-hidden">
 
-    <div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
-        <div class="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full mix-blend-screen filter blur-[120px] opacity-40 animate-blob"></div>
-        <div class="absolute top-0 right-1/4 w-96 h-96 bg-secondary/10 rounded-full mix-blend-screen filter blur-[120px] opacity-40 animate-blob animation-delay-2000"></div>
-    </div>
-
-    <nav class="fixed w-full z-50 top-0 p-6">
-        <div class="max-w-6xl mx-auto glass rounded-full px-8 py-4 flex justify-between items-center shadow-lg !transform-none">
-            <a href="#" class="text-xl font-bold text-white tracking-tight group">
-                Pedro<span class="text-primary group-hover:text-white transition-colors">.</span>Aureliano
+    <nav class="fixed w-full z-50 top-0 border-b border-white/5 bg-black/50 backdrop-blur-md">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="font-mono font-bold text-white tracking-tight hover:text-primary transition-colors">
+                ~/pedro.aureliano
             </a>
 
-            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
                 <a href="#about" class="hover:text-white transition-colors">Sobre</a>
-                <a href="#skills" class="hover:text-white transition-colors">Stack</a>
-                <a href="#projects" class="hover:text-white transition-colors">GitHub</a>
-                <a href="#contact" class="bg-primary hover:bg-indigo-600 text-white px-5 py-2 rounded-full transition-all shadow-lg shadow-indigo-500/20">
-                    Contato
-                </a>
+                <a href="#github" class="hover:text-white transition-colors">GitHub</a>
+                <a href="#stack" class="hover:text-white transition-colors">Stack</a>
             </div>
         </div>
     </nav>
 
-    <main class="container mx-auto px-6 pt-40 pb-20">
+    <main class="container mx-auto px-6 pt-32 pb-20 max-w-5xl">
         
-        <section class="min-h-[70vh] flex flex-col justify-center items-center text-center relative">
+        <section class="min-h-[70vh] flex flex-col-reverse md:flex-row items-center justify-between gap-12 reveal active">
             
-            <div class="relative mb-10 animate-float">
-                <div class="absolute -inset-1 bg-gradient-to-tr from-primary to-secondary rounded-full blur opacity-60"></div>
-                <img src="https://avatars.githubusercontent.com/u/84044726?v=4" alt="Pedro Aureliano" class="relative w-40 h-40 rounded-full border-4 border-[#0f172a] shadow-2xl object-cover">
+            <div class="flex-1 space-y-8">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded border border-green-900/50 bg-green-900/10 text-green-400 text-xs font-mono">
+                    <div class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
+                    System Online
+                </div>
+
+                <h1 class="text-5xl md:text-6xl font-bold text-white tracking-tight">
+                    Pedro Aureliano
+                </h1>
+                
+                <div class="font-mono text-sm md:text-base text-gray-400 h-8">
+                    <span class="text-blue-500">root@pedro:~$</span> <span id="typewriter" class="text-gray-200"></span><span class="animate-pulse">_</span>
+                </div>
+
+                <p class="text-lg text-gray-400 leading-relaxed max-w-xl">
+                    Estudante de Engenharia de Software focado em Backend e Infraestrutura.
+                    Usuário de Linux (Fedora), entusiasta de código limpo e sistemas robustos.
+                </p>
+                
+                <div class="flex gap-4 pt-4">
+                    <a href="#github" class="px-6 py-3 bg-white text-black font-bold rounded hover:bg-gray-200 transition-all">
+                        Ver Código
+                    </a>
+                    <a href="https://github.com/pedroEKS" target="_blank" class="px-6 py-3 border border-white/20 text-white font-medium rounded hover:bg-white/5 transition-all flex items-center gap-2">
+                        <i data-lucide="github" class="w-4 h-4"></i> Perfil Completo
+                    </a>
+                </div>
             </div>
-            
-            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight leading-tight">
-                Pedro Aureliano
-            </h1>
-            
-            <div class="text-xl md:text-2xl text-indigo-300 font-mono mb-10 h-8 flex items-center justify-center">
-                <span id="typewriter" class="cursor"></span>
+
+            <div class="relative w-48 h-48 md:w-64 md:h-64 flex-shrink-0">
+                <div class="absolute inset-0 border-2 border-white/10 rounded-full translate-x-4 translate-y-4"></div>
+                <img src="https://avatars.githubusercontent.com/u/84044726?v=4" 
+                     alt="Pedro Aureliano" 
+                     class="relative w-full h-full rounded-full object-cover border-2 border-primary shadow-2xl transition-all duration-500">
             </div>
-            
-            <div class="flex flex-col sm:flex-row gap-4">
-                <a href="#about" class="px-8 py-3.5 bg-white/5 hover:bg-white/10 text-white font-semibold rounded-full transition-all border border-white/10 backdrop-blur-sm">
-                    Minha História
+
+        </section>
+
+        <section id="github" class="py-24 reveal">
+            <h2 class="text-2xl font-bold text-white mb-10 flex items-center gap-3 border-l-4 border-primary pl-4">
+                Repositórios & Código
+            </h2>
+
+            <div class="glass-card p-10 rounded text-center border border-white/10 hover:border-primary/50 transition-all group">
+                <div class="inline-block p-4 rounded-full bg-white/5 mb-6 group-hover:bg-primary/20 transition-colors">
+                    <i data-lucide="folder-git-2" class="w-12 h-12 text-white"></i>
+                </div>
+                
+                <h3 class="text-2xl font-bold text-white mb-4">Acesse meus Repositórios</h3>
+                
+                <p class="text-gray-400 max-w-2xl mx-auto mb-8 text-lg">
+                    Todo o meu código de estudo, scripts de automação e implementações de backend estão centralizados no meu GitHub.
+                </p>
+                
+                <a href="https://github.com/pedroEKS?tab=repositories" target="_blank" class="inline-flex items-center gap-2 bg-primary hover:bg-blue-600 text-white font-bold py-4 px-8 rounded transition-all text-lg shadow-lg shadow-blue-900/20">
+                    <i data-lucide="github" class="w-5 h-5"></i> Ir para Repositórios
                 </a>
-                <a href="https://github.com/pedroEKS" target="_blank" class="px-8 py-3.5 bg-white text-slate-900 font-bold rounded-full hover:bg-gray-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)] flex items-center gap-2 justify-center">
-                    <i data-lucide="github" class="w-5 h-5"></i> GitHub
-                </a>
             </div>
-        </section>
 
-        <section id="about" class="py-24 reveal">
-            <div class="max-w-4xl mx-auto glass rounded-3xl p-10 md:p-14 !transform-none">
-                <h2 class="text-3xl font-bold text-white mb-8 flex items-center gap-3">
-                    <span class="text-primary">01.</span> Sobre Mim
-                </h2>
-                <div class="space-y-6 text-lg leading-relaxed text-slate-300 font-light">
-                   <p>
-                        Comecei minha trajetória acadêmica naMedicina, onde aprendi cedo sobre responsabilidade,
-                        pressão e tomada de decisão. Com o tempo, percebi que meu interesse real estava na lógica, estrutura
-                        e resolução de problemas.
-                    </p>
-                    <p>
-                        Hoje sou estudante de Engenharia de Software na UniBH. Gosto de entender como sistemas funcionam
-                        por trás do código, não apenas fazer algo rodar, mas entender o porquê.
-                    </p>
-                    <p>
-                        Tenho foco em backend, principalmente com Java e Python,
-                        além de interesse em infraestrutura e conceitos de cloud. Prefiro aprender com base sólida,
-                        mesmo que isso leve mais tempo.
-                    </p>
+            <div class="mt-8 glass-card rounded p-8">
+                <h4 class="text-white font-bold mb-6 font-mono text-sm uppercase tracking-wider">
+                    // GitHub_Linguagens
+                </h4>
+                <div id="language-chart" class="space-y-4">
+                    <div class="h-2 bg-gray-800 rounded w-full animate-pulse"></div>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="py-24 reveal">
-            <div class="max-w-5xl mx-auto">
-                <h2 class="text-3xl font-bold text-white mb-12 text-center">
-                    <span class="text-primary">02.</span> Habilidades
-                </h2>
+        <section id="stack" class="py-24 reveal">
+            <h2 class="text-2xl font-bold text-white mb-10 border-l-4 border-primary pl-4">
+                Tech Stack
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                 
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-blue-500/50 transition-all">
-                        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Python">
-                        <span class="font-mono font-bold text-sm text-white mt-2">Python</span>
-                    </div>
-                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-red-500/50 transition-all">
-                        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Java">
-                        <span class="font-mono font-bold text-sm text-white mt-2">Java</span>
-                    </div>
-                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-green-500/50 transition-all">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Node.js">
-                        <span class="font-mono font-bold text-sm text-white mt-2">Node.js</span>
-                    </div>
-                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-emerald-500/50 transition-all">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="MongoDB">
-                        <span class="font-mono font-bold text-sm text-white mt-2">MongoDB</span>
-                    </div>
-                    <div class="glass p-6 rounded-2xl flex flex-col items-center justify-center gap-3 group hover:border-orange-500/50 transition-all">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" class="w-16 h-16 group-hover:scale-110 transition-transform duration-300" alt="Git">
-                        <span class="font-mono font-bold text-sm text-white mt-2">Git</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="py-24 reveal">
-            <div class="max-w-4xl mx-auto glass rounded-3xl p-8 md:p-12 border border-white/10">
-                <div class="flex items-center gap-4 mb-8">
-                    <h2 class="text-2xl font-bold text-white">GitHub Intelligence</h2>
-                </div>
-                
-                <div id="language-chart" class="space-y-6">
-                    <div class="animate-pulse space-y-4">
-                        <div class="h-4 bg-slate-700 rounded w-3/4"></div>
-                        <div class="h-4 bg-slate-700 rounded w-1/2"></div>
-                    </div>
-                </div>
-                <div class="mt-8 text-center">
-                    <a href="https://github.com/pedroEKS?tab=repositories" target="_blank" class="text-sm text-primary hover:text-white transition-colors underline decoration-primary/30 hover:decoration-white">Ver repositórios completos →</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-24 reveal">
-            <div class="max-w-5xl mx-auto px-6">
-                <h2 class="text-3xl font-bold text-white mb-12 text-center">
-                    <span class="text-primary">03.</span> Certificações & Conquistas
-                </h2>
-                
-                <div class="grid md:grid-cols-2 gap-6">
-                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=9f47020039cc1dca3b184f989c733d24&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-blue-500 hover:bg-white/5 transition-all cursor-pointer block">
-                        <h3 class="text-white font-bold text-lg group-hover:text-blue-400 transition-colors">DevOps & Cloud</h3>
-                        <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
-                    </a>
-
-                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=9f502073d9eb45667c0de6c4deac97be&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-yellow-500 hover:bg-white/5 transition-all cursor-pointer block">
-                        <h3 class="text-white font-bold text-lg group-hover:text-yellow-400 transition-colors">Python</h3>
-                        <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
-                    </a>
-
-                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=333cc697039f2be0228358306c52a384&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-purple-500 hover:bg-white/5 transition-all cursor-pointer block">
-                        <h3 class="text-white font-bold text-lg group-hover:text-purple-400 transition-colors">Inteligência Artificial</h3>
-                        <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
-                    </a>
-
-                    <a href="https://on.fiap.com.br/local/nanocourses/gerar_certificado.php?chave=5c3709d4ded2ba20abc6db1777caea05&action=view" target="_blank" class="glass p-6 rounded-2xl group border-l-4 border-l-emerald-500 hover:bg-white/5 transition-all cursor-pointer block">
-                        <h3 class="text-white font-bold text-lg group-hover:text-emerald-400 transition-colors">Tecnologias Emergentes</h3>
-                        <p class="text-sm text-slate-400 mt-1">FIAP - Nanocourse</p>
-                    </a>
+                <div class="p-6 border border-white/5 rounded flex flex-col items-center justify-center hover:border-primary/50 transition-all group bg-white/5 hover:bg-white/10">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" class="w-12 h-12 mb-3 group-hover:scale-110 transition-transform" alt="Java">
+                    <span class="block text-white font-bold">Java</span>
+                    <span class="text-xs text-gray-500 mt-1">Core</span>
                 </div>
 
-                <div class="mt-12">
-                    <a href="https://rsdjournal.org/index.php/rsd/article/view/46262" target="_blank" class="block glass p-8 rounded-3xl border border-white/10 hover:border-primary/50 transition group">
-                        <span class="text-xs font-bold text-primary uppercase tracking-widest mb-2 block">Publicação Acadêmica</span>
-                        <h3 class="text-xl font-bold text-white group-hover:text-primary transition-colors leading-tight">
-                            "Eficácia e segurança da aplicação precoce da fototerapia em neonatos com icterícia: Uma revisão sistemática"
-                        </h3>
-                        <p class="text-slate-400 mt-3 text-sm">Publicado no Research, Society and Development Journal.</p>
-                    </a>
+                <div class="p-6 border border-white/5 rounded flex flex-col items-center justify-center hover:border-primary/50 transition-all group bg-white/5 hover:bg-white/10">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" class="w-12 h-12 mb-3 group-hover:scale-110 transition-transform" alt="Python">
+                    <span class="block text-white font-bold">Python</span>
+                    <span class="text-xs text-gray-500 mt-1">Scripting</span>
                 </div>
+
+                <div class="p-6 border border-white/5 rounded flex flex-col items-center justify-center hover:border-primary/50 transition-all group bg-white/5 hover:bg-white/10">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" class="w-12 h-12 mb-3 group-hover:scale-110 transition-transform" alt="Postgres">
+                    <span class="block text-white font-bold">Postgres</span>
+                    <span class="text-xs text-gray-500 mt-1">Database</span>
+                </div>
+
+                <div class="p-6 border border-white/5 rounded flex flex-col items-center justify-center hover:border-primary/50 transition-all group bg-white/5 hover:bg-white/10">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fedora/fedora-original.svg" class="w-12 h-12 mb-3 group-hover:scale-110 transition-transform" alt="Fedora">
+                    <span class="block text-white font-bold">Fedora</span>
+                    <span class="text-xs text-gray-500 mt-1">OS</span>
+                </div>
+
+                <div class="p-6 border border-white/5 rounded flex flex-col items-center justify-center hover:border-primary/50 transition-all group bg-white/5 hover:bg-white/10">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" class="w-12 h-12 mb-3 group-hover:scale-110 transition-transform" alt="Docker">
+                    <span class="block text-white font-bold">Docker</span>
+                    <span class="text-xs text-gray-500 mt-1">Container</span>
+                </div>
+
+                <div class="p-6 border border-white/5 rounded flex flex-col items-center justify-center hover:border-primary/50 transition-all group bg-white/5 hover:bg-white/10">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" class="w-12 h-12 mb-3 group-hover:scale-110 transition-transform" alt="Git">
+                    <span class="block text-white font-bold">Git</span>
+                    <span class="text-xs text-gray-500 mt-1">Version</span>
+                </div>
+
             </div>
         </section>
 
     </main>
 
-    <footer id="contact" class="bg-[#050a16] pt-20 pb-10 border-t border-white/5">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Vamos conversar?</h2>
-            <p class="text-slate-400 mb-12 text-lg">Estou disponível para oportunidades de estágio e colaborações.</p>
-            
-            <div class="inline-flex items-center bg-slate-900/50 backdrop-blur rounded-full p-2 pr-6 border border-white/10 mb-12 hover:border-primary/50 transition-colors">
-                <span class="bg-slate-800 text-slate-300 px-3 py-1.5 rounded-full text-sm mr-3 font-mono">Email</span>
-                <a href="mailto:dateks@proton.me" id="email-text" class="text-white font-mono hover:text-primary transition mr-4">pedroeks155@gmail.com</a>
-                <button onclick="copyEmail()" class="text-xs text-slate-500 hover:text-white transition uppercase font-bold tracking-wider flex items-center gap-1">
-                    <i data-lucide="copy" class="w-3 h-3"></i> Copiar
-                </button>
-            </div>
-
-            <div class="flex justify-center gap-8 text-slate-500 mb-12">
-                <a href="https://github.com/pedroEKS" target="_blank" class="hover:text-white hover:scale-110 transition-all p-2 bg-white/5 rounded-full"><i data-lucide="github" class="w-6 h-6"></i></a>
-                <a href="https://www.linkedin.com/in/pedroaureliano" target="_blank" class="hover:text-white hover:scale-110 transition-all p-2 bg-white/5 rounded-full"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
-            </div>
-            
-            <div class="text-slate-600 text-sm border-t border-white/5 pt-8">
-                <p>© 2025 Pedro Aureliano.</p>
+    <footer class="border-t border-white/10 bg-black py-12">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-gray-600 text-sm font-mono">© 2026 Pedro Aureliano.</p>
+            <div class="flex gap-6">
+                <a href="mailto:pedroeks155@gmail.com" class="text-gray-500 hover:text-white transition-colors text-sm font-mono">Email</a>
+                <a href="https://www.linkedin.com/in/pedroaureliano" target="_blank" class="text-gray-500 hover:text-white transition-colors text-sm font-mono">LinkedIn</a>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        // // Inicializa assets
+        lucide.createIcons();
+
+        // // Terminal Logic
+        const commands = [
+            "./system_check.sh",
+            "git push origin main",
+            "dnf upgrade --refresh",
+            "status: operational"
+        ];
+        
+        let i = 0, j = 0;
+        let currentCommand = [];
+        let isDeleting = false;
+
+        function terminalLoop() {
+            const target = document.getElementById("typewriter");
+            if (!target) return;
+
+            target.innerHTML = currentCommand.join('');
+            
+            if (i < commands.length) {
+                if (!isDeleting && j <= commands[i].length) {
+                    currentCommand.push(commands[i][j]);
+                    j++;
+                }
+                
+                if (isDeleting && j <= commands[i].length) {
+                    currentCommand.pop(commands[i][j]);
+                    j--;
+                }
+                
+                if (j == commands[i].length) {
+                    isDeleting = true;
+                }
+                
+                if (isDeleting && j === 0) {
+                    currentCommand = [];
+                    isDeleting = false;
+                    i++;
+                    if (i == commands.length) i = 0;
+                }
+            }
+            
+            const speed = isDeleting ? 30 : 60; 
+            const delay = (!isDeleting && j === commands[i].length) ? 2500 : speed;
+            setTimeout(terminalLoop, delay);
+        }
+        terminalLoop();
+
+        // // Scroll Reveal
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+
+        // // Fetch GitHub Data
+        const user = 'pedroeks';
+        const chartEl = document.getElementById('language-chart');
+
+        async function getStats() {
+            if (!chartEl) return;
+            
+            const cacheKey = `gh-${user}`;
+            const cached = localStorage.getItem(cacheKey);
+            
+            if (cached) {
+                const { ts, data } = JSON.parse(cached);
+                if (Date.now() - ts < 86400000) {
+                    renderStats(data);
+                    return;
+                }
+            }
+
+            try {
+                const res = await fetch(`https://api.github.com/users/${user}/repos?per_page=20&sort=updated`);
+                if (!res.ok) throw new Error('API Error');
+                
+                const repos = await res.json();
+                const stats = {};
+
+                const promises = repos.slice(0, 10).map(r => fetch(r.languages_url).then(d => d.json()));
+                const langs = await Promise.all(promises);
+
+                langs.forEach(obj => {
+                    for (const [k, v] of Object.entries(obj)) {
+                        stats[k] = (stats[k] || 0) + v;
+                    }
+                });
+
+                const total = Object.values(stats).reduce((a, b) => a + b, 0);
+                const sorted = Object.entries(stats).sort(([, a], [, b]) => b - a).slice(0, 5);
+
+                const finalData = sorted.map(([k, v]) => ({
+                    lang: k,
+                    pct: ((v / total) * 100).toFixed(1)
+                }));
+
+                localStorage.setItem(cacheKey, JSON.stringify({ ts: Date.now(), data: finalData }));
+                renderStats(finalData);
+
+            } catch (e) {
+                console.error("Github fetch failed", e);
+                chartEl.innerHTML = "<span class='text-xs text-red-500 font-mono'>// Error connecting to GitHub API</span>";
+            }
+        }
+
+        function renderStats(data) {
+            const map = {
+                'Java': 'bg-orange-600', 
+                'Python': 'bg-blue-600', 
+                'JavaScript': 'bg-yellow-500',
+                'TypeScript': 'bg-blue-400', 
+                'HTML': 'bg-red-500', 
+                'CSS': 'bg-indigo-500'
+            };
+
+            let bar = '<div class="flex h-3 w-full rounded overflow-hidden bg-gray-800 mb-4">';
+            data.forEach(item => {
+                const c = map[item.lang] || 'bg-gray-500';
+                bar += `<div class="${c}" style="width: ${item.pct}%"></div>`;
+            });
+            bar += '</div>';
+
+            let legends = '<div class="flex flex-wrap gap-4">';
+            data.forEach(item => {
+                const c = map[item.lang] || 'bg-gray-500';
+                legends += `
+                    <div class="flex items-center gap-2 text-xs font-mono text-gray-400">
+                        <div class="${c} w-2 h-2 rounded-full"></div>
+                        <span class="text-gray-200">${item.lang}</span>
+                        <span>${item.pct}%</span>
+                    </div>
+                `;
+            });
+            legends += '</div>';
+            
+            chartEl.innerHTML = bar + legends;
+        }
+
+        getStats();
+    </script>
 </body>
 </html>
