@@ -14,17 +14,19 @@ Currently, I use **Fedora Linux** as my daily driver to stay close to the server
 
 ---
 
-### 🧠 Engineering Philosophy
+###  Engineering Philosophy
 
 I am not interested in shortcuts. My goal is to master the fundamentals that outlive frameworks.
 
-* **Logic over Syntax:** Languages change, algorithms stay.
-* **Structure over Speed:** Writing clean, maintainable code (SOLID/Clean Arch) is my priority.
-* **The Hard Way:** I prefer learning C and raw SQL to understand how things work under the hood before using high-level abstractions.
+**Logic over Syntax:** Languages change, algorithms stay.
+
+**Structure over Speed:** Writing clean, maintainable code (SOLID/Clean Arch) is my priority.
+
+**The Hard Way:** I prefer learning C and raw SQL to understand how things work under the hood before using high-level abstractions.
 
 ---
 
-### 🛠 Tech Stack & Tools
+###  Tech Stack & Tools
 
 <div align="left">
   <img src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white" />
@@ -45,11 +47,13 @@ I am not interested in shortcuts. My goal is to master the fundamentals that out
 
 ---
 
-### 📚 Current Study Path
+### Current Study Path
 
-- **Computer Science Fundamentals:** Deep diving into memory allocation and pointers via Harvard's CS50.
-- **Backend Architecture:** Studying how to structure APIs that are decoupled and testable.
-- **Database Normalization:** Writing raw SQL queries to understand execution plans and optimization.
+  **Computer Science Fundamentals:** Deep diving into memory allocation and pointers via Harvard's CS50.
+
+  **Backend Architecture:** Studying how to structure APIs that are decoupled and testable.
+
+  **Database Normalization:** Writing raw SQL queries to understand execution plans and optimization.
 
 ---
 
