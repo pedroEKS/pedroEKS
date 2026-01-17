@@ -1,72 +1,60 @@
-# 👋 Hi, I'm Pedro Aureliano
+# Pedro Aureliano
 
-I'm a Software Engineering student who enjoys understanding how things actually work — from code logic to how systems are structured behind the scenes.
+> *Software Engineering Student. Linux User. Backend Enthusiast.*
 
-Right now, my focus is on **backend development** and building a solid foundation in programming. I’m less interested in shortcuts and more interested in learning things properly, even if that takes time.
+📍 *Minas Gerais, Brazil* | 🎓 *Class of 2028* | 🌐 [pedroeks.github.io/pedroEKS](https://pedroeks.github.io/pedroEKS/)
 
-🎓 Software Engineering student  
-📅 Expected graduation: June 2028
+---
 
-You can find me on LinkedIn:  
-<a href="https://www.linkedin.com/in/pedroaureliano" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+### 👨🏻‍💻 About Me
 
+I am a Software Engineering student focused on building robust, scalable systems rather than just shipping features. I believe that understanding the underlying layers—memory management, data structures, and operating systems—is crucial for writing efficient high-level code.
 
-## What I'm currently working on
+Currently, I use **Fedora Linux** as my daily driver to stay close to the server environment and force myself to master the terminal and system administration.
 
-- Improving my programming fundamentals (logic, structure, clean code)
-- Learning backend development step by step
-- Getting familiar with databases and APIs
-- Exploring cloud concepts and how applications are deployed
+---
 
+### 🧠 Engineering Philosophy
 
+I am not interested in shortcuts. My goal is to master the fundamentals that outlive frameworks.
 
-## Technologies I use or study
+* **Logic over Syntax:** Languages change, algorithms stay.
+* **Structure over Speed:** Writing clean, maintainable code (SOLID/Clean Arch) is my priority.
+* **The Hard Way:** I prefer learning C and raw SQL to understand how things work under the hood before using high-level abstractions.
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="45" height="45" />
-      <br>Python
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="45" height="45" />
-      <br>Java
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="45" height="45" />
-      <br>Node.js
-    </td>
-    <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="45" height="45" />
-      <br>Git
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" width="45" height="45" />
-      <br>GCP
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="45" height="45" />
-      <br>MongoDB
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="45" height="45" />
-      <br>Linux
-    </td>
-  </tr>
-</table>
+---
 
+### 🛠 Tech Stack & Tools
 
-## Goals for the next years
+<div align="left">
+  <img src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+</div>
 
-- Become confident writing backend code without relying on shortcuts
-- Learn SQL, testing, and basic system design
-- Build small but well-structured projects
-- Prepare myself for junior backend or software engineering roles
+<br>
 
+| Domain | Technologies |
+| :--- | :--- |
+| **Core** | Python, Java, C (CS50) |
+| **Data** | PostgreSQL (SQL), Data Structures |
+| **Environment** | Linux (Fedora), Bash, Git, Docker |
+| **Interests** | System Architecture, AgroTech, API Design |
 
-## GitHub Pages
+---
 
-This repository is also available here:  
-👉 https://pedroeks.github.io/pedroEKS/
+### 📚 Current Study Path
+
+- **Computer Science Fundamentals:** Deep diving into memory allocation and pointers via Harvard's CS50.
+- **Backend Architecture:** Studying how to structure APIs that are decoupled and testable.
+- **Database Normalization:** Writing raw SQL queries to understand execution plans and optimization.
+
+---
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/pedroaureliano" target="_blank">
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</div>
