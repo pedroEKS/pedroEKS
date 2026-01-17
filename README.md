@@ -8,7 +8,7 @@
 
 ### 👨🏻‍💻 About Me
 
-I am a Software Engineering student focused on building robust, scalable systems rather than just shipping features. I believe that understanding the underlying layers—memory management, data structures, and operating systems—is crucial for writing efficient high-level code.
+I am a Software Engineering student focused on building robust, scalable systems rather than just shipping features. I believe that understanding the underlying layers (memory management, data structures, and operating systems) is crucial for writing efficient high-level code.
 
 Currently, I use **Fedora Linux** as my daily driver to stay close to the server environment and force myself to master the terminal and system administration.
 
