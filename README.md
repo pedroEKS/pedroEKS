@@ -8,8 +8,6 @@
 
   I am a Software Engineering student focused on building robust and efficient systems. My main goal is to master Computer Science Fundamentals—algorithms, data structures, and memory management—to write high-quality software that stands the test of time.
 
-  Currently, I am specializing in **Backend Architecture**, exploring how to build scalable APIs and complex data processing pipelines.
-
   <br>
 
   <a href="https://www.linkedin.com/in/pedroaureliano/" target="_blank">
