@@ -6,15 +6,18 @@
 
   <br>
 
-  I am a Software Engineering student focused on building robust and efficient systems. My main goal is to master Computer Science Fundamentals, algorithms, data structures, and memory management—to write high-quality software that stands the test of time.
+  I am a Software Engineering student focused on building robust and efficient systems. My main goal is to master Computer Science Fundamentals, algorithms, data structures, and memory management to write high-quality software that stands the test of time
 
   <br>
 
-  <a href="https://www.linkedin.com/in/pedroaureliano/" target="_blank">
+<a href="https://www.linkedin.com/in/pedroaureliano/" target="_blank">
     <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:dateks@proton.me" target="_blank">
     <img src="https://img.shields.io/badge/PROTONMAIL-6d4aff?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://pedroeks.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/PORTFOLIO-1da1f2?style=for-the-badge&logo=googlechrome&logoColor=white&color=black" alt="Website"/>
   </a>
 
 </div>
