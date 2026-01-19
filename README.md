@@ -6,7 +6,7 @@
 
   <br>
 
-  I am a Software Engineering student focused on building robust and efficient systems. My main goal is to master Computer Science Fundamentals—algorithms, data structures, and memory management—to write high-quality software that stands the test of time.
+  I am a Software Engineering student focused on building robust and efficient systems. My main goal is to master Computer Science Fundamentals, algorithms, data structures, and memory management—to write high-quality software that stands the test of time.
 
   <br>
 
