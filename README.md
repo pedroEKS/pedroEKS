@@ -16,7 +16,7 @@
   <a href="mailto:dateks@proton.me" target="_blank">
     <img src="https://img.shields.io/badge/PROTONMAIL-6d4aff?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://pedroeks.github.io/" target="_blank">
+  <a href="https://aurelianopedro.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/PORTFOLIO-1da1f2?style=for-the-badge&logo=googlechrome&logoColor=white&color=black" alt="Website"/>
   </a>
 
